@@ -1,0 +1,13 @@
+**TeknoMagic Medieval v1.0**
+```Prolog
+[Removidos]```
+```css
+- Avaritia
+- Biomes O'Plenty
+- DynamicTrees
+- Railcraft Cosmetic
+- Tree Growing Simulator
+- Streams (Farseek)
+``` 
+```ini
+[Adicionados]```
