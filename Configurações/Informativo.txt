@@ -1,0 +1,2 @@
+Essa Pasta é destinada apenas para configurações "gerais" do servidor.
+Nada daqui é de uso individual.

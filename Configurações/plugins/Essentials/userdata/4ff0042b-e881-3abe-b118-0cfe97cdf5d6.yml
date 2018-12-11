@@ -1,0 +1,39 @@
+lastAccountName: HunterPlaysGame
+timestamps:
+  login: 1544558897840
+  lastteleport: 1544559989923
+  kits:
+    mkvi: 1544559759942
+    rebel: 1544559471844
+    sniper: 1544559614410
+    heli: 1544559482720
+    inicial: 1544555400051
+    dtools: 1544559739521
+    tools: 1544555411357
+    marine: 1544559607890
+    specops: 1544559722631
+  logout: 1544558858342
+ipAddress: 25.58.249.254
+lastlocation:
+  world: world
+  x: 41.78653861161698
+  y: 66.0
+  z: 463.5732398562118
+  yaw: -123.296875
+  pitch: 5.8500032
+logoutlocation:
+  world: world
+  x: 342.38506050241665
+  y: 63.0
+  z: 577.8507484181406
+  yaw: -87.30017
+  pitch: 13.800024
+homes:
+  casa:
+    world: world
+    x: 331.89919586558165
+    y: 65.0
+    z: 577.1664142220436
+    yaw: -82.80017
+    pitch: 17.700033
+money: '500.0'

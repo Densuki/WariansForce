@@ -1,0 +1,53 @@
+users:
+  4ff0042b-e881-3abe-b118-0cfe97cdf5d6:
+    lastname: HunterPlaysGame
+    group: TheSeventhOne
+    subgroups: []
+    permissions: []
+  56495420-c135-36f8-b46f-f12d06b90e78:
+    lastname: J0kerZ1
+    group: TheSeventhOne
+    subgroups: []
+    permissions: []
+  6944743c-3b65-360c-b42e-c8f8a52cd1bd:
+    lastname: Lan_Games
+    group: TheSeventhOne
+    subgroups:
+    - Membro
+    - Default
+    - SlimeFun
+    - GuiShop
+    permissions: []
+  6ea30b53-b6d7-3dcc-8d6c-c4afddc92901:
+    lastname: Densuki
+    group: TheSeventhOne
+    subgroups:
+    - Perms
+    - Membro
+    - Default
+    - SlimeFun
+    - GuiShop
+    permissions: []
+  6f68d46a-988b-3d90-8a45-413e838ce244:
+    lastname: ianL1301
+    group: TheSeventhOne
+    subgroups:
+    - Membro
+    - Default
+    - SlimeFun
+    - GuiShop
+    permissions: []
+  d1f67eac-d75e-3486-b022-53418a48c94d:
+    lastname: Pyxion
+    group: TheSeventhOne
+    subgroups: []
+    permissions: []
+  f059f708-085b-33d0-948b-b3c20391ce06:
+    lastname: Guilherme_GameHD
+    group: TheSeventhOne
+    subgroups:
+    - Membro
+    - Default
+    - SlimeFun
+    - GuiShop
+    permissions: []

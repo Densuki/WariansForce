@@ -1,0 +1,54 @@
+##################################################
+##                                              ##
+##  _____ _    _ _____  _____ _                 ##
+## / ____| |  | |_   _|/ ____| |                ##
+##| |  __| |  | | | | | (___ | |__   ___  _ __  ##
+##| | |_ | |  | | | |  \___ \| '_ \ / _ \| '_ \ ##
+##| |__| | |__| |_| |_ ____) | | | | (_) | |_) |##
+## \_____|\____/|_____|_____/|_| |_|\___/| .__/ ##
+##                                       | |    ##
+##                                       |_|    ##
+##################################################
+
+##Title of the inventory in /shop
+menuname: '&4GUI &5Shop &4Menu'
+
+##Tag in chat before text in chat from shop. e.g [GUIShop] Purchase Successful.
+tag: '[GUIShop]'
+
+DisabledWorlds:
+ - 'world_nether'
+
+##Menu Items
+Rows: 1
+1:
+  Enabled: true
+  Item: DIAMOND
+  Name: '&4Misc&6shop'
+  Desc: 'Click Me'
+  Shop: 'Misc'
+2:
+  Enabled: true
+  Item: DIAMOND_CHESTPLATE
+  Name: '&4Armour&6shop'
+  Desc: 'Click Me'
+  Shop: 'Armour'
+3:
+  Enabled: true
+  Item: WOOD
+  Name: '&2WoodShop'
+  Desc: 'Click Me'
+  Shop: 'Woodshop'
+4:
+  Enabled: true
+  Item: WOOD_AXE
+  Name: 'Tool Shop'
+  Desc: 'Click Me'
+  Shop: 'Tools'
+
+ #############################
+ ## Developed by pablo67340 ##
+ ## If you need any support ##
+ ## add 'pablo673400' on    ##
+ ## Skype!                  ##
+ #############################

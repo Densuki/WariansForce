@@ -1,0 +1,220 @@
+PROTECTION_ENVIRONMENTAL:
+  max-level: 10
+PROTECTION_FIRE:
+  max-level: 10
+PROTECTION_FALL:
+  max-level: 10
+PROTECTION_EXPLOSIONS:
+  max-level: 10
+PROTECTION_PROJECTILE:
+  max-level: 10
+OXYGEN:
+  max-level: 10
+WATER_WORKER:
+  max-level: 10
+THORNS:
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRA==":
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF8y":
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF8z":
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF80":
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF81":
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF82":
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF83":
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF84":
+  max-level: 10
+DAMAGE_ALL:
+  max-level: 10
+DAMAGE_UNDEAD:
+  max-level: 10
+DAMAGE_ARTHROPODS:
+  max-level: 10
+KNOCKBACK:
+  max-level: 10
+FIRE_ASPECT:
+  max-level: 10
+LOOT_BONUS_MOBS:
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF85":
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF8xMA==":
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF8xMQ==":
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF8xMg==":
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF8xMw==":
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF8xNA==":
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF8xNQ==":
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF8xNg==":
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF8xNw==":
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF8xOA==":
+  max-level: 10
+DIG_SPEED:
+  max-level: 10
+SILK_TOUCH:
+  max-level: 10
+DURABILITY:
+  max-level: 10
+LOOT_BONUS_BLOCKS:
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF8xOQ==":
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF8yMA==":
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF8yMQ==":
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF8yMg==":
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF8yMw==":
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF8yNA==":
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF8yNQ==":
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF8yNg==":
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF8yNw==":
+  max-level: 10
+!!binary "Q09NX0VOREVSSU9fQ09SRV9DT01NT05fRU5DSEFOVF9FTkNIQU4BXwJQQk9PU1Q=":
+  max-level: 10
+!!binary "Q09NX0VOREVSSU9fQ09SRV9DT01NT05fRU5DSEFOVF9FTkNIQU4BXwJVVAFfAk1FTFQ=":
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF8yOA==":
+  max-level: 10
+ARROW_DAMAGE:
+  max-level: 10
+ARROW_KNOCKBACK:
+  max-level: 10
+ARROW_FIRE:
+  max-level: 10
+ARROW_INFINITE:
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF8yOQ==":
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF8zMA==":
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF8zMQ==":
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF8zMg==":
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF8zMw==":
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF8zNA==":
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF8zNQ==":
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF8zNg==":
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF8zNw==":
+  max-level: 10
+LUCK:
+  max-level: 10
+LURE:
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF8zOA==":
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF8zOQ==":
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF80MA==":
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF80MQ==":
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF80Mg==":
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF80Mw==":
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF80NA==":
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF80NQ==":
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF80Ng==":
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF80Nw==":
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF80OA==":
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF80OQ==":
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF81MA==":
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF81MQ==":
+  max-level: 10
+BINDING:
+  max-level: 10
+!!binary "TklHSAFfAklTSU9O":
+  max-level: 10
+DISARM:
+  max-level: 10
+!!binary "UE9USU8BXwJPQVRFRF81Mg==":
+  max-level: 10
+!!binary "QU0yX0VOQ0hBTlRNRU5UU19FTkNIQU4BXwJBR0kBXwJFU0lTVA==":
+  max-level: 10
+SOULBOUND:
+  max-level: 10
+HOLDING:
+  max-level: 10
+MULTISHOT:
+  max-level: 10
+HASTE:
+  max-level: 10
+REPAIR:
+  max-level: 10
+!!binary "RElTUEVSU0UBXwJUUklLRVM=":
+  max-level: 10
+SHATTER:
+  max-level: 10
+!!binary "RklOQQFfAlRSSUtF":
+  max-level: 10
+!!binary "Rk9DVVNFAV8CVFJJS0VT":
+  max-level: 10
+POUNCE:
+  max-level: 10
+SHOCKWAVE:
+  max-level: 10
+TUNNEL:
+  max-level: 10
+VALIANCE:
+  max-level: 10
+REAPER:
+  max-level: 10
+!!binary "REFNQUcBXwJBSUxDUkFGVA==":
+  max-level: 10
+!!binary "REFNQUcBXwJBSUxDUkFGVF8y":
+  max-level: 10
+DESTRUCTION:
+  max-level: 10
+READING:
+  max-level: 10
+!!binary "REVBVAFfAk9NUEFTUw==":
+  max-level: 10
+EXPLOSIVE:
+  max-level: 10
+!!binary "TEFTAV8CVEFORA==":
+  max-level: 10
+!!binary "RkxJAV8CTEFN":
+  max-level: 10
+!!binary "QVNDRU4BXwJPT1NU":
+  max-level: 10
+!!binary "U0xPAV8CQUxM":
+  max-level: 10
+!!binary "QVVUAV8CTUVMVA==":
+  max-level: 10
+DESINTEGRATE:
+  max-level: 10
+!!binary "UVVJQwFfAlJBVw==":
+  max-level: 10
+VAMPIRISM:
+  max-level: 10

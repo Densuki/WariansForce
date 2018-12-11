@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>WorldGuard - Changelog</title>
+<style>
+body {
+  margin: 0;
+  padding: 2em 2em 3em 2em;
+  color: #333;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+.wrapper {
+  margin: auto;
+  max-width: 750px;
+}
+
+a {
+  background: transparent;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+strong {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0 0 0.67em 0;
+}
+
+img {
+  border: 0;
+}
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+pre {
+  overflow: auto;
+}
+
+code,
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a {
+  color: #4183c4;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+  text-decoration: underline;
+}
+
+hr {
+  height: 0;
+  margin: 15px 0;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+hr:before,
+hr:after {
+  display: table;
+  content: " ";
+}
+
+hr:after {
+  clear: both;
+}
+
+blockquote {
+  margin: 0;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ol ol {
+  list-style-type: lower-roman;
+}
+
+dd {
+  margin-left: 0;
+}
+
+code,
+pre {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 12px;
+}
+
+pre {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+*:first-child {
+  margin-top: 0 !important;
+}
+
+*:last-child {
+  margin-bottom: 0 !important;
+}
+
+.anchor {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  padding-right: 6px;
+  padding-left: 30px;
+  margin-left: -30px;
+}
+
+.anchor:focus {
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  position: relative;
+  margin-top: 1.5em;
+  margin-bottom: 16px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+h1 {
+  padding-bottom: 0.3em;
+  font-size: 2.1em;
+  line-height: 1.2;
+  border-bottom: 1px solid #eee;
+}
+
+h2 {
+  padding-bottom: 0.3em;
+  font-size: 1.65em;
+  line-height: 1.225;
+  border-bottom: 1px solid #eee;
+}
+
+h3 {
+  font-size: 1.2em;
+  line-height: 1.43;
+}
+
+h4 {
+  font-size: 1.1em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+h6 {
+  font-size: 1em;
+  color: #777;
+}
+
+p,
+blockquote,
+ul,
+ol,
+dl,
+table,
+pre {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+hr {
+  height: 4px;
+  padding: 0;
+  margin: 16px 0;
+  background-color: #e7e7e7;
+  border: 0 none;
+}
+
+ul,
+ol {
+  padding-left: 2em;
+}
+
+ol ol,
+ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+li>p {
+  margin-top: 16px;
+}
+
+dl {
+  padding: 0;
+}
+
+dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+blockquote {
+  padding: 0 15px;
+  color: #777;
+  border-left: 4px solid #ddd;
+}
+
+blockquote>:first-child {
+  margin-top: 0;
+}
+
+blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all;
+}
+
+table th {
+  font-weight: bold;
+}
+
+table th,
+table td {
+  padding: 6px 13px;
+  border: 1px solid #ddd;
+}
+
+table tr {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+img {
+  max-width: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+code {
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 3px;
+}
+
+code:before,
+code:after {
+  letter-spacing: -0.2em;
+  content: "\00a0";
+}
+
+pre>code {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.highlight {
+  margin-bottom: 16px;
+}
+
+.highlight pre,
+pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+}
+
+.highlight pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+pre {
+  word-wrap: normal;
+}
+
+pre code {
+  display: inline;
+  max-width: initial;
+  padding: 0;
+  margin: 0;
+  overflow: initial;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+pre code:before,
+pre code:after {
+  content: normal;
+}
+</style>
+</head>
+<body>
+<div class="wrapper"><h1>Changelog</h1><h2>6.0 beta 2</h2>
+<ul>
+  <li>Added an <code>-e</code> parameter to <code>/rg flag</code> that sets the flag to an empty value. You can use this to, for example, make it so the <code>deny-message</code> flag is empty, meaning that players won't get a message at all.</li>
+  <li>Added a visual smoke effect when an action on a block has been denied.</li>
+  <li>Added <code>event-handling.interaction-whitelist</code>, a list of items or blocks that should never be protected. For example, adding <code>wooden_door</code> to the list would make it so that doors could be used by anyone regardless if they have permission or not. You may still protect the blocks via other means.</li>
+  <li>Added <code>event-handling.emit-block-use-at-feet</code>, a list of items that, when used, will also be considered as the player using that item on the block at the player's feet. The purpose of this setting is, for example, to allow you to (sort of) prevent the use of a mod-added item that does not emit events.</li>
+  <li>Added <code>-s</code> to silently turn toggle <code>/stoplag</code> and <code>-i</code> to show the current state of the setting. (Thanks, <a href="https://github.com/stuntguy3000">stuntguy3000</a>).</li>
+  <li>Added support for Bukkit <a href="http://jd.bukkit.org/rb/apidocs/org/bukkit/Material.html">Material</a> names in the blacklist.</li>
+  <li>Fixed <a href="http://youtrack.sk89q.com/issue/WORLDGUARD-3167">#3167</a>: Saplings can be used without permission although it won't place blocks inside the region</li>
+  <li>Fixed <a href="http://youtrack.sk89q.com/issue/WORLDGUARD-3168">#3168</a>: Grown saplings that are partially prevented from placing all of its leaves may not remove the sapling</li>
+  <li>Fixed <a href="http://youtrack.sk89q.com/issue/WORLDGUARD-3169">#3169</a>: Bonemeal usage falls under the USE flag when it should really fall under building</li>
+  <li>Fixed <a href="http://youtrack.sk89q.com/issue/WORLDGUARD-3174">#3174</a>: Boat placement is not properly prevented in a protected region</li>
+  <li>Fixed <a href="http://youtrack.sk89q.com/issue/WORLDGUARD-3130">#3130</a>: Polygonal selections allow unlimited claim volumes with /rg claim</li>
+  <li>Fixed <a href="http://youtrack.sk89q.com/issue/WORLDGUARD-3137">#3137</a>: Claiming infinite regions is possible due to integer overflow</li>
+  <li>Fixed <a href="http://youtrack.sk89q.com/issue/WORLDGUARD-3171">#3171</a>: Can't pickup XP in protected regions without permission</li>
+  <li>Fixed <a href="http://youtrack.sk89q.com/issue/WORLDGUARD-3170">#3170</a>: Boats without a driver can be used to break lily pads</li>
+  <li>Fixed <a href="http://youtrack.sk89q.com/issue/WORLDGUARD-3172">#3172</a>: Players cannot be damaged by mobs in protected regions unless they have permission</li>
+  <li>Fixed <a href="http://youtrack.sk89q.com/issue/WORLDGUARD-3152">#3152</a>: BUILD overrides all other flags, unlike in WG 5</li>
+  <li>Fixed <a href="http://youtrack.sk89q.com/issue/WORLDGUARD-3154">#3154</a>: notify-enterflag doesn't work with horses and other vehicles</li>
+  <li>Fixed <a href="http://youtrack.sk89q.com/issue/WORLDGUARD-3166">#3166</a>: Trees do not grow naturally within protected regions</li>
+</ul><h2>6.0 beta 1</h2><h3>UUID support</h3><p>Regions now fully support the use of UUIDs rather than names for storing the owners and members of a region. Commands still accept names, but they are translated into UUIDs in the background. For users who already have existing region data, names will be automatically converted to UUIDs on the first run of WorldGuard.</p><p>It is still possible to specify names rather than a UUID by using the <code>-n</code> flag with the region membership commands.</p><h3>'Deny by default'</h3><p>Previously, a pre-determined list of blocks and entities was used to determine whether an action by the player should be blocked. However, this has been reversed so that every action on a block or entity is denied (in a protected region) unless it has been deemed safe (such as, for example, right clicking with steak). Mods are now supported as a result.</p><p>The <code>USE</code> flag has been repurposed as a general "interaction" flag and covers every left click or right click of a block or entity. It also covers interaction that falls outside clicking.</p><h3>Exhaustive protection</h3><p>More events are now handled in the protection code. For example,</p>
+<ul>
+  <li>It is no longer possible to drop sand or gravel into a protected region from outside.</li>
+  <li>It is no longer possible to grief a region by growing a tree into it.</li>
+  <li>The entry and exit flags now handle players sitting on vehicles properly.</li>
+  <li>Piston-moved blocks cannot be pushed into a different protected region.</li>
+  <li>Owners of tamable animals are now considered in protection code.</li>
+</ul><p>Even water and lava flow can also be checked, although this requires that it be explicitly enabled in the configuration (flow events are very frequent, so they incur extra CPU cost).</p><p>The goal is to provide extremely exhaustive protection.</p><h3>Large performance boost for spatial queries</h3><p>The performance of spatial queries for regions has been substantially increased at least an order of magnitude. Spatial queries are a necessity for the region code to query the list of regions that apply to a location in the world. There should be a negligible difference between 4, 40, and 4000 regions as long as too many regions are not overlapping.</p><h3>Background region operations</h3><p>Region commands are now executed in the background. Notably, saves and loads will not lock up your server while they complete. Additionally, changes to regions are now saved periodically rather than immediately after every change.</p><h3>Updated MySQL region support</h3><p>MySQL support has been completely overhauled. It should now be faster, no longer crash on foreign key index errors, use transactions, and support automatic creation and migration of tables (including support for table prefixes).</p><h3>Partial region data saving</h3><p>For users of MySQL, WorldGuard now only saves changed and deleted regions when saving region data. No longer does WorldGuard have to rewrite the entire region database on each save.</p><h3>Improved handling of related flags</h3><p>Multiple flags that apply to an event are now evaluated together if they are similar. For example, if a player right clicks a bed to sleep in it, both the <code>USE</code> and <code>SLEEP</code> flag are checked since they are both interaction-related. If one of them is <code>DENY</code>, then sleeping is denied (remember, <code>DENY</code> overrides <code>ALLOW</code>). If one of them is <code>ALLOW</code> and the other is not <code>DENY</code>, then sleeping is permitted.</p><p>Only one "category" of flags needs to evaluate to true to permit an action. <code>DENY</code> will not cross categories. For example, if <code>BUILD</code> is deny, it will not override <code>SLEEP</code>, so if <code>SLEEP</code> is set to <code>ALLOW</code>, sleeping will be permitted. This is fairly similar to how it worked on WorldGuard 5.</p><h3>Flag groups now work properly</h3><p>While you could always set a group to a flag's value, the functionality was incomplete and did not work most of the time.</p><p>Now that groups are supported, you can change a flag so it only applies to a certain group of players. For example, <code>/rg flag example sleep deny -g members</code> would deny sleeping for only members of the <code>example</code> region.</p><h3>Inheritance now works as expected</h3><p>Previously, a region only inherited flags and other details from its parents if the parent and the child overlapped at the location queried. This is no longer the case and inheritance is now always applied. </p><p>In addition, a new <code>-g</code> flag for <code>/rg define</code> lets you create a region with no physical area so that you can assign flags and use this region as a "template region."</p><h3>Settable deny message</h3><p>It is now possible to change the message that users get when they are prevented from interacting with blocks or entities. This message is defined as a region flag, so you can set it on the <code>__global__</code> region or override it in a specific region. In addition, the tone and color of the default message has been softened, but you are free to change it entirely.</p><h3>Blacklist support for data values (and later, variants)</h3><p>The blacklist was rewritten to support more than just block and item IDs. The immediate result is that you can now use data values, but as those are in the process of being deprecated by Mojang, it also allows support for Minecraft's new block variants in the future.</p><h3>Debounced events</h3><p>Events that tend to reoccur very frequently (such as the ones that occur when you stand on a pressure plate continuously) have been "debounced" to reduce the number of checks that WorldGuard has to perform, reducing the amount of wasted CPU. In addition, the "you don't have permission" message is rate limited so players are not flooded with the message.</p><h3>New block place and break flags</h3><p>A long requested feature was the availability of block place and break flags. These newly added flags work in tandem with the <code>BUILD</code> flag but can override <code>BUILD</code>. At the moment, it is not possible to allow explicit types of blocks to be placed or broken yet.</p><h3>Build permission nodes</h3><p>A new optional (disabled by default in the configuration) feature is the checking of build permission nodes. For every block, entity, and item, the following permission nodes are checked:</p>
+<ul>
+  <li>Block place: <code>worldguard.build.block.place.&lt;material&gt;</code></li>
+  <li>Block break: <code>worldguard.build.block.remove.&lt;material&gt;</code></li>
+  <li>Block interact: <code>worldguard.build.block.interact.&lt;material&gt;</code></li>
+  <li>Entity spawn: <code>worldguard.build.entity.place.&lt;type&gt;</code></li>
+  <li>Entity destroy: <code>worldguard.build.entity.remove.&lt;type&gt;</code></li>
+  <li>Entity interact: <code>worldguard.build.entity.interact.&lt;type&gt;</code></li>
+  <li>Entity damage: <code>worldguard.build.entity.damage.&lt;type&gt;</code></li>
+  <li>Item use: <code>worldguard.build.item.use.&lt;material&gt;</code></li>
+</ul><p>In addition, the permissions are also checked in the style of <code>worldguard.build.block.&lt;material&gt;.&lt;action&gt;</code>, so <code>worldguard.build.block.&lt;material&gt;.place</code> would work too.</p><p>The list of usable material names comes from the <a href="http://jd.bukkit.org/rb/apidocs/org/bukkit/Material.html">Material enumeration in Bukkit</a>. For example, the permission for placing the bed block would be <code>worldguard.build.build.place.bed_block</code>. Be aware that <em>Material</em> contains both item and block names.</p><p>For entity names, see <a href="http://jd.bukkit.org/rb/apidocs/org/bukkit/entity/EntityType.html">EntityType</a>.</p><h3>Other changes</h3>
+<ul>
+  <li>Added a setting to permit "fake players" to bypass protection. Fake players are used by some servers and some mods to allow events to be thrown for mod blocks. WorldGuard considers a player to be a fake player if the name starts with <code>[</code> and ends with <code>]</code>.</li>
+  <li>Added a check so players can no longer disembark in a region from their tamed animal if they don't have permission to get back on.</li>
+  <li>Added an item pickup flag to go along with the item drop flag.</li>
+  <li>Added a new <code>//running</code> command was added to show currently running background tasks.</li>
+  <li>Added a blacklist <code>on-dispense</code> event.</li>
+  <li>Added more detailed error messages when parsing the YAML regions file.</li>
+  <li>Added the <code>-Dworldguard.debug.listener=true</code> option that can be set on your server's command line to see how WorldGuard processes events, although this will result in a lot of log messages.</li>
+  <li>Added log messages that occur on player join when a player had auto-god mode or auto-amphibious mode.</li>
+  <li>Fixed the heal command so that it now sets a player's health to the maximum rather than 20.</li>
+  <li>Fixed <code>ProtectedCuboidRegion.getPoints()</code> returning points in wrong order.</li>
+  <li>Fixed the obsidian generator disable option to also apply to tripwire.</li>
+  <li>Fixed an error with the blocked commands flag.</li>
+  <li>Fixed a connection leak with the MySQL region code.</li>
+  <li>Fixed <code>/wg reload</code> sometimes not applying new changes right away.</li>
+  <li>Changed the region removal command so that child regions are no longer removed without warning when removing the parent region.</li>
+  <li>Changed the YAML region data save code to first write the data to a temporary file before replacing the final file.</li>
+  <li>Changed how region data is handled when region support is disabled: it is no longer loaded.</li>
+  <li>Changed sponges to now be disabled by default. However, if you had previously installed WorldGuard, sponges will still be enabled. Sponges are being added in Minecraft and they work differently than in Minecraft Classic (which WorldGuard emulates). In addition, enabling sponge support in WorldGuard incurs extra CPU cost even if no sponges exist in the world.</li>
+  <li>Changed how region data is loaded and saved so failures are now more graceful. If the region data fails to load for a world, then the entire world will be protected by default. In addition, periodic attempts will be made to load the region data in the background.</li>
+  <li>Changed the <code>FEED</code> flag to maximize the player's saturation level if the hunger level is raised.</li>
+  <li>Changed the <code>wg-invincible</code> and <code>wg-amphibious</code> groups feature so that it now must be enabled in the configuration.</li>
+  <li>Removed the ability for WorldGuard to upgrade from a version for Minecraft Alpha.</li>
+</ul><h3>API changes</h3>
+<ul>
+  <li>You can use a new <code>WorldGuardPlugin.createProtectionQuery()</code> method to easily check build permissions.</li>
+  <li>The listener classes were moved. Consider them internal -- if you want to make use of the listener somehow, please put in a ticket in our issue tracker.</li>
+  <li>Much of the protection-related handling was previously scattered throughout the code. Now WorldGuard funnels events into an internal event system and then processes protection queries in a more consistent matter. These events are for internal use so it is strongly recommended that you do not use them (they may change without notice drastically). A lot of the protection-related flag handling was moved there.</li>
+  <li>A significant portion of classes under the package of <code>com.sk89q.worldguard.protection</code> were changed or removed. However, the basic calls (testing the value of a flag, etc.) should still work, but they may be deprecated. Some of the utility <code>Domain</code>-related classes were removed.</li>
+  <li>The old region database (load/save) API was removed and replaced with a new one. The new one no longer needs to pointless store a collection of regions on itself -- it has <code>collection = load()</code> and <code>save(collection)</code> methods.</li>
+  <li>Previously, there were subclasses of <code>RegionManager</code> that implemented different spatial indices. However, now <code>RegionManager</code> is a final class and the spatial indices are separate (see the <code>RegionIndex</code> interface).</li>
+  <li>A hash table was implemented that caches a list of regions within each loaded chunk. This increases performance of spatial queries substantially.</li>
+  <li>A cache of recent spatial queries now exists (a cache of <code>ApplicableRegionSets</code>), but you need to make use of <code>RegionQuery</code> to make use of this cache. However, if you need to do a spatial query to modify region data, then the old method is better (get a <code>RegionManager</code>, etc.).</li>
+  <li><code>ApplicableRegionSet</code> was converted into an interface. In addition, there are now "virtual" <code>ApplicableRegionSet</code> instances that are returned by <code>RegionQuery</code> for certain special cases (such as, for example, region support being disabled by the user or region data being unavailable for a world due to an error). A new <code>isVirtual()</code> method is available. This is not an issue if you are getting <code>ApplicableRegionSet</code> instances from a <code>RegionManager</code>.</li>
+  <li><code>ApplicableRegionSet</code> now can accept a pre-sorted collection and its use of a <code>TreeSet</code> was removed for performance reasons.</li>
+  <li><code>FileNotFoundException</code> is now properly handled in the YAML region file class. It creates the new file and continues on.</li>
+  <li>Player names are deprecated by Mojang and so they need to be converted into UUIDs. As this will take some time, you should do this conversion in a background task. To check whether a region contains a player, it recommended that <code>contains(LocalPlayer)</code> be used because it's possible that the user may be still using names. A new <code>WorldGuardPlugin.wrapOfflinePlayer()</code> method was added for this specific purposes.</li>
+  <li>All flags now use <code>RegionGroup.ALL</code> as the default region group.</li>
+  <li><code>StateFlag.getDefault()</code> now returns a <code>State</code> rather than a <code>boolean</code>.</li>
+  <li>The priority R-tree index now uses the R-tree for region intersection queries. Previously, it was only used for single point containment queries.</li>
+  <li>Regions now keep a "dirty" flag and changes it whenever data within the region is changed. When WorldGuard decides to periodically save region data, it may only save changed regions. Calling <code>save()</code> on the <code>RegionManager</code> is no longer needed as periodical saves happen automatically.</li>
+  <li>The old region data migration API was removed in favor of region store drivers. There is no longer a need to have an implementation for every possible conversion (i.e. YAML -&gt; MySQL, MySQL -&gt; YAML, etc.).</li>
+  <li><code>ProtectedRegion.copyFrom()</code> was added to copy region settings from another region.</li>
+  <li><code>@Nullable</code> annotations were added throughout the code. If you use IntelliJ IDEA, you may notice that it now warns you when a return value may be <code>null</code>.</li>
+</ul><h2>5.9</h2>
+<ul>
+  <li>Added a config option to allow explosion flags to only prevent block damage</li>
+  <li>Added allow-tamed-spawns setting, on by default. This will stop WorldGuard from culling tamed animals.</li>
+  <li>Added config option and flag to prevent soil from drying naturally.</li>
+  <li>Added formatting codes, &amp;k/l/m/n/o and &amp;x (reset).</li>
+  <li>Added snow-fall-blocks option to config to restrict snow fall to certain blocks</li>
+  <li>Allow players to add newlines (\n) via command, not just manually in yml.</li>
+  <li>Allow the console to load/save all region managers with one command.</li>
+  <li>Changed entity report format slightly.</li>
+  <li>Check bypass perms for item-drop flag.</li>
+  <li>Check for entities and projectiles removing items from frames too.</li>
+  <li>Fix being able to use bonemeal to turn tall grass into double plants.</li>
+  <li>Fix number of arguments for migratedb command.</li>
+  <li>Fixed addowner/addmember commands adding command artifacts. Specifically, "-w <world>" will no longer be added when using it.</li>
+  <li>Fixed milking cows in protected areas due to changes in Bukkit.</li>
+  <li>Fixed ProtectedCuboidRegion::getPoints() returning points in wrong order.</li>
+  <li>Fixed snowman trails being treated as snow fall.</li>
+  <li>Make /rg list default to own regions if the player doesn't have permission otherwise.</li>
+  <li>Protected items in item frames in protected regions.</li>
+  <li>Resolved an issue where explosions of type OTHER_EXPLOSION were ignoring the world configuration settings.</li>
+  <li>Send item-use blacklist event when right-clicking entities.</li>
+  <li>Transformed the BlockFadeEvent handler into a switch.</li>
+</ul><h2>5.8</h2>
+<ul>
+  <li>BREAKING CHANGE: This version has been built for versions of Bukkit for MC 1.6.1 and newer. Do not try to use this version of WG on an older Bukkit version.</li>
+  <li>Added support for Minecraft 1.6+. Actual support of new 1.6 additions is dependant on Bukkit. Please use a newer build of Bukkit if, for example, you seem to be unable to add "Horses" to your lists of entities.</li>
+  <li>Added mobs.disable-snowman-trails to disable the trails left by walking snowmen.</li>
+  <li>Added -a flag to /region removeowner and /region removemember to remove all objects.</li>
+  <li>Teleporting is now handled by entry/exit flags. If this is causing people to get entirely stuck inside entry/exit deny regions, set the new setting 'use-player-teleports' to 'false' in your configuration.</li>
+  <li>Updated formatting for region commands, especially /region info.</li>
+  <li>Changed permissions checking for /region commands to be more consistent, checking for region IDs as a sub-node. This means that if some permissions for some region commands no longer work, add '.*' to the end of permission lines for WG in your permission plugin.</li>
+</ul><h2>5.7.5</h2>
+<ul>
+  <li>Refixed a few issues from 5.7.4.</li>
+</ul><h2>5.7.4</h2>
+<ul>
+  <li>BREAKING CHANGE: Removed the cyan "**" in front of greeting and farewell messages to allow more customizability. You can re-add them by adding "&amp;c**" to the flag.</li>
+  <li>Fixed an issue enderpearling inside exit/entry deny regions.</li>
+  <li>Added checks to players teleporting in and out of exit/entry regions.</li>
+  <li>Fix bad matching in blocked and allowed command flags.</li>
+  <li>Fixed heal flag bugs when player max health was increased.</li>
+  <li>Add fishing to xp blocker.</li>
+  <li>Applied other-explosion flag to entity damage as well.</li>
+  <li>Fixed an issue with interaction that should allow blacklisting item use actions with no block involved (eg fishing rods, potions)</li>
+  <li>Fix witherskull/fireball settings not being differentiated in one case</li>
+  <li>Allow cow milking in no-build areas</li>
+  <li>Fix infinite durability breaking items instantly.</li>
+</ul><h2>5.7.3</h2>
+<ul>
+  <li>Fixed the error caused by Bukkit's change of the TNT minecart API.</li>
+</ul><h2>5.7.2</h2>
+<ul>
+  <li>Updated to MineCraft 1.5.</li>
+  <li>Added TNT Minecart support. They are handled with the same flags/settings as TNT.</li>
+  <li>Added mining and smelting xp handling to the xp drops flag and setting.</li>
+  <li>Fixed a few edge cases for placing items on region borders.</li>
+  <li>Legacy: Fixed issue with //stack not respecting item metadata.</li>
+</ul><h2>5.7.1</h2>
+<ul>
+  <li>Added a vine growth config option and flag.</li>
+  <li>Added support for many commands to be used from console. Usage is with -w flag and a world name e.g. /rg addmem <id> <player> -w <worldname> /rg flag <id> <flag> -w <worldname> <flagvalue></li>
+  <li>Fixed bug that blocks placing plants in flower pots.</li>
+  <li>Fixed permissions check for /rg tp</li>
+  <li>Fixed enderchests not being accessible (they are now part of the USE flag)</li>
+  <li>Fixed an issue with slabs being placable in protected regions. This was also fixed in CraftBukkit but has been left in for users running other versions.</li>
+  <li>Fixed wither skulls being handled with other fireballs, despite having their own settings.</li>
+  <li>Fixed item frames being placable on region borders.</li>
+  <li>Fixed a bug that made explosions more ineffective than they should have been.</li>
+  <li>Fixed bonemeal usage in protected regions.</li>
+  <li>Fixed special minecarts being placable in protected regions.</li>
+  <li>Fixed bugs being placable on region borders.</li>
+  <li>Fixed wolves bypassing pvp flags.</li>
+</ul><h2>5.7</h2>
+<ul>
+  <li>Fixed thread sync issue with FlagStateManager.</li>
+  <li>Fixed dragon egg region protection not working in certain cases.</li>
+  <li>Added beacon and anvil usage protection in regions.</li>
+  <li>Add mobs.block-enderdragon-portal-creation to stop enderdragons from making portals on death.</li>
+  <li>Fix TNT being lethal in some case when damage was disabled.</li>
+  <li>Fix snowballs and enderpearls being able to knock players back in pvp deny regions.</li>
+  <li>Add subcommand support for allowed and blocked command flags.</li>
+  <li>Add max-players-allowed and max-players-reject-message flags to limit the numbers of players in a region.</li>
+  <li>Fix players being able to plant cocoa beans in protected areas.</li>
+  <li>Add an enderpearl flag to prevent players from teleporting to and from regions.</li>
+  <li>Added mobs.block-other-explosions config setting and other-explosion flag to block explosions caused by uncovered things, such as other plugins. (It doesn't actually have to be a mob)</li>
+  <li>Fix mob damage setting and flag not blocking the DoT wither effect.</li>
+  <li>Ghast fireball flag will not block blaze fireballs from lighting things on fire.</li>
+  <li>Fixed players without region permissions being able to trigger tripwires, use enderchests, use wooden buttons, and put plants in flower pots.</li>
+  <li>Added mobs.block-zombie-door-destruction setting to stop zombies from breaking down doors while difficulty is set to hard.</li>
+</ul><p>Thank you to thvortex, Dilandau, tophathacker, and Dark_arc for their contributions this release.</p><h2>5.6.5</h2>
+<ul>
+  <li>Fixed a regression that caused paintings and item frames to no longer be properly protected.</li>
+</ul><h2>5.6.4</h2>
+<ul>
+  <li>Added mobs.block-above-ground-slimes to block slimes spawning naturally above ground.</li>
+  <li>Added security.deop-everyone-on-join to de-op all players when they join.</li>
+  <li>Added security.block-in-game-op-command to prevent usage of /op from in-game.</li>
+  <li>Fixed a NullPointerException in PlayerInteract involving water potions and potion blocking.</li>
+  <li>Fixed an issue with snowballs being blocked in regions.</li>
+  <li>Changed dragon eggs to be checked like it is a broken block in regions.</li>
+  <li>Moved developer's WGBukkit class to package com.sk89q.worldguard.bukkit.</li>
+</ul><h2>5.6.3</h2>
+<ul>
+  <li>Added helper WGBukkit class to get references to WorldGuard from other plugins.</li>
+  <li>Added physics.vine-like-rope-ladders to make ladders work like vines. As long as the top ladder block is present, ladder blocks will hold even if they have no block behind them, like a rope ladder.</li>
+  <li>Fixed NullPointerException in PlayerInteractEvent caused by potion blocking.</li>
+  <li>Fixed mobs.block-{item-frame,painting}-destroy not working.</li>
+</ul><p>Thank you to def for testing the above fixes and features.</p><h2>5.6.2</h2>
+<ul>
+  <li>Fixed potion blocking not working well for splash potions.</li>
+</ul><h2>5.6.1</h2>
+<ul>
+  <li>Added a mycelium-spread region flag.</li>
+  <li>Added a dynamics.disable-mycelium-spread configuration setting.</li>
+  <li>Added new gameplay.block-potions option. For example: gameplay: block-potions: [invisibility, speed]</li>
+  <li>Fixed a bug in the entity explosion event handler that caused a NullPointerException.</li>
+</ul><p>Thank you for gabizou for his contribution in this release.</p><h2>5.6</h2>
+<ul>
+  <li>Added official support for Minecraft 1.4. Support for 1.3.2 (and below) is still provided in this release.</li>
+  <li>Added support for new and existing explosion types.</li>
+  <li>Added support for blocking withers with the following settings: mobs: block-wither-explosions: false block-wither-block-damage: false block-wither-skull-explosions: false block-wither-skull-block-damage: true</li>
+  <li>Added support for blocking item frames (and their use) in protected regions.</li>
+  <li>Added item frame destruction region flags (if you wish to disable item frame destruction completely).</li>
+  <li>(Re-)added support for priority R-tree region indexes. This means quicker region lookup, and better support for servers with thousands of regions.</li>
+  <li>Improved /region info output for -g group flags.</li>
+  <li>Allowed removing of -g group flags with /region flag.</li>
+  <li>Allowed /region flag to set group and value at once.</li>
+  <li>Deleting a region flag now also deletes group flag.</li>
+  <li>Fixed detection of attack by projectiles to be more accurate.</li>
+  <li>Fixed support for saving non-string flags in the MySQL region support.</li>
+  <li>Fixed spurious comma in "Flags:" /region info output.</li>
+  <li>Fixed players who are not in god mode not receiving damage in PVP areas from enderpearls.</li>
+  <li>Players will now be told that they are in a no-PvP area if they are in one and attempting to attack someone, or that the player they are attacking is in a no-PvP area, if that is the case instead.</li>
+  <li>Fixed an issue where region.getId() was lowercase'd each pass of a for loop in MySQLDatabase.updatePoly2dPoints().</li>
+  <li>Fixed mob damage from projectiles not being properly blocked in regions where applicable.</li>
+  <li>Changed default region wand to leather (#334).</li>
+</ul><p>Thank you to the following individuals for their contribution: thvortex, Rutr, Glitchfinder, and DarthAndroid.</p><h2>5.5.4</h2>
+<ul>
+  <li>Minecraft 1.3 support.</li>
+  <li>Fixed /stack dupe bugs.</li>
+  <li>Added regions.use-creature-spawn-event.</li>
+  <li>Update for Async chat issue.</li>
+  <li>Add use flag to cakes.</li>
+  <li>Report number of plugins loaded in report writer.</li>
+  <li>Updated fireblal item blocking.</li>
+  <li>Fixed permissions for /region reload.</li>
+</ul><h2>5.5.3</h2>
+<ul>
+  <li>Added game mode flag.</li>
+  <li>Added item drop pickup flag to regions.</li>
+  <li>Added support for fireball item blocking (385).</li>
+  <li>Added configuration option to allow creature spawns from plugins.</li>
+  <li>Added host key check.</li>
+  <li>Added a new line split feature to region greetings.</li>
+  <li>Prevented commands in the allow commands list from being blocked and vice versa.</li>
+</ul><h2>5.5.2</h2>
+<ul>
+  <li>Added potion-splash flag to block splash potions</li>
+  <li>Add entity-painting-destroy which can be used to prevent entities from destroying paintings (skeletons firing arrows)</li>
+  <li>Added send-chat and receive-chat flags</li>
+  <li>Fixed having regions in multiple worlds with the same name not working with MySQL</li>
+  <li>A cancellable event is now fired if WorldGuard disallows PvP. (for developers!)</li>
+  <li>Made /region setparent check worldguard.region.setparent.own/member.<parent> instead of worldguard.region.setparent.own/member.<child>.</li>
+  <li>Allowed passing #<index> in place of a region ID, where <index> is the index as displayed by /region list.</li>
+  <li>Fixed an error that occured when clearing a non-existant region's parent.</li>
+  <li>Added a -s flag to /region teleport, which sends you to the spawn point instead of the teleport point of a region.</li>
+  <li>Added region/role-based permissions to /region teleport.</li>
+  <li>BREAKING CHANGE: Added a LocationFlag class and made the teleport and spawn flags use it.</li>
+  <li>/region info -s now selects the region being queried.</li>
+  <li>Added /region teleport <id>.</li>
+  <li>Vector flags can now be set to the current location with the value "here" and to a specific position with x,y,z.</li>
+  <li>Made /region info show the region you're in if you don't specify an id explicitly.</li>
+  <li>Prevent block ignition from lightning strikes if lightning is blocked in region. Fixes #1175</li>
+  <li>Correctly check both WEPIF and superperms in WorldGurdPlugin.broadcastNotification()</li>
+  <li>Destroy fire blocks when fire-spread is disallowed</li>
+  <li>Added a construct flag that can be used to restrict block placing/destroying in zones to certain roles.</li>
+  <li>Added FallingSand to list of intensive entities to be removed with /halt-activiy.</li>
+  <li>Replaced all usage of CreatureType by EntityType.</li>
+  <li>Updated to support Bukkit 1.2-R0.3 and newer</li>
+  <li>Made auto-god-mode disabled by default again.</li>
+  <li>Added sign protection check disable.</li>
+  <li>Cleaned up javadoc, deprecated duplicate methods, other cleanup</li>
+  <li>Added a RegionGroupFlag to evey region flag Using the /region flag command with -g, the region group that the region flag applies to can be set.</li>
+</ul><h2>5.5.1</h2>
+<ul>
+  <li>Fixed attacking with arrows from non-PVP to PVP areas</li>
+  <li>Compatibility with Bukkit 1.1-R5</li>
+  <li>Removed broken suppress-tick-sync-warnings config option. See bukkit.yml's setings.warn-on-overload option instead.</li>
+  <li>Add region and 'can build' information to CommandBook's /whois</li>
+</ul><p>Contributions thanks to: NolanSyKinsley</p><h2>5.5</h2>
+<ul>
+  <li>Removed WorldEdit.jar from the classpath to stop conflicts with Bukkit's plugin loader</li>
+  <li>Now using Bukkit's tagged logging</li>
+  <li>Updated to new event system</li>
+  <li>Flush player flag state cache on world change</li>
+  <li>Improved compatibility with versions of CommandBook without GodComponent and updated pom dep for 2.0</li>
+  <li>Added MySQL region storage method.</li>
+  <li>Made explosions display their animations even when the event was blocked.</li>
+  <li>Added fallback support for those who don't have a version of CommandBook with GodComponent</li>
+  <li>Added LIGHTNING flag to DefaultFlag's flagsList Fixes #1026</li>
+  <li>Removed /god, /heal, /locate, and /stack from WorldGuard to CommandBook. CommandBook is now checked to see whether a player is godded.</li>
+  <li>Removed remaining usages of org.bukkit.util.config.Configuration</li>
+  <li>Removed some unused configuration options</li>
+  <li>Added permission worldguard.region.wand to the region wand</li>
+  <li>Fixed ProtectedRegion.compareTo.</li>
+  <li>Fixed FlatRegionManager.getApplicableRegions to return parent regions as well.</li>
+  <li>Added exp-drops flag to disable experience drops per-region.</li>
+  <li>Fixed some warnings.</li>
+  <li>Updated dependency version for WorldGuard from 5.0 to 5.1-SNAPSHOT.</li>
+  <li>Added support for fireballs shot by players being blocked by the PVP flag.</li>
+  <li>Now using dynamic command registration</li>
+  <li>Split off ender dragon block damage from creeper block damage.</li>
+</ul><p>Contributions thanks to: narthollis, DarkArc, Wolvereness, and skeight</p><h2>5.4</h2>
+<ul>
+  <li>Fixed configuration generation on Windows</li>
+  <li>Fixed intersection calculation for regions</li>
+  <li>Fixed timer and feeding delay for food flags</li>
+  <li>Fixed region managers not being created properly (This caused errors related to CREATURE_SPAWN)</li>
+  <li>Added support for Minecraft 1.0.1 blocks</li>
+  <li>Added support for enchantments and tool damage (worldguard.stack.damaged is the node) with /stack</li>
+  <li>Made being in the wg-invincible group respect the configuration's auto-invincible setting</li>
+  <li>Added per-group region claim limit maximum</li>
+  <li>Added worldguard.region.addowner.unclaimed.* permission for non-economy region 'buying'</li>
+  <li>Checking allowed/blocked commands now occurs earlier to override more plugins</li>
+  <li>Made PVP flag check whether either player is in a pvp deny region for blocking</li>
+</ul><p>Contributions thanks to: epuidokas, wizjany, Turtle9598, and DerFlash</p><h2>5.3</h2>
+<ul>
+  <li>Added new config options and flags to better handle explosions of all types</li>
+  <li>Added config options and flags for snow, ice, mushroom spread, grass spread, and leaf decay</li>
+  <li>Added min and max health flags to clamp the values for the existing healing flags</li>
+  <li>Added hunger flags similar to the existing healing flags</li>
+  <li>Added an option to disable the use of the move event. This can boost performance on large servers but will disable the greeting/farewell and entry/exit flags</li>
+  <li>Added flag to prevent pistons (including those that are outside the region, but would affect blocks inside the region)</li>
+  <li>Added a /wg flushstates [player] command to free players stuck in a region that was exit-deny but no longer exists or the flag was removed</li>
+  <li>Added a config option to disable xp orb dropping</li>
+  <li>Added config option to disable redstone wire obsidian generators</li>
+  <li>Added a vehicle-destroy flag</li>
+  <li>Added enderman protection config and flag</li>
+  <li>Allowed and blocked command flags will now fall back to the global region</li>
+  <li>The worldguard.region.flag.own/member permissions are now worldguard.region.flag.regions.own/member! Please change your permissions accordingly.</li>
+  <li>Made //stack respect max stack sizes unless the player has the worldguard.stack.illegitimate permission</li>
+  <li>Setting invincibility flag to deny will override god mode unless the player has worldguard.god.override-regions</li>
+  <li>The sleep flag will now prevent beds in the nether from exploding if set to deny</li>
+  <li>Existing regions can no longer be accidentally overwritten. Use /region redefine to move an existing region.</li>
+  <li>The info command will now sort players alphabetically</li>
+  <li>Priming TNT by punching it with flint and steal should throw a blacklist event (consistent with old Minecraft versions)</li>
+  <li>The /stoplag command will now remove xp orbs</li>
+  <li>Permissions system will use per-world permissions if the provider supports it</li>
+  <li>Players in vehicles are now subject to entry/exit and greeting/farewell flags</li>
+  <li>Fixed interact blacklist event not logging correctly</li>
+  <li>Fixed heal flag taking effect half a block northeast of the region</li>
+  <li>Fixed a infinite sign dropping bug</li>
+  <li>Fixed players being able to douse fire by punching it in regions they couldn't build it</li>
+  <li>Fixed players being able to eat protected cake</li>
+  <li>Fence gate usage can be blocked with the use flag</li>
+  <li>Fixed chests being unprotected when they should be in 1.8</li>
+  <li>Fixed weather config settings not applying when a world was loaded</li>
+  <li>Fixed explosion handling in certain cases</li>
+  <li>Fixed arrows working in non-pvp zones</li>
+  <li>Fixed buckets working on the border of protected regions in certain cases Contributions thanks to: wizjany, zml2008, imjake9, Droolio, epuidokas, EduardBaer, TomyLobo, and halvors</li>
+</ul><h2>5.2.2</h2>
+<ul>
+  <li>Changed configuration saving so empty lists will be added to the configuration files.</li>
+</ul><h2>5.2.1</h2>
+<ul>
+  <li>Add region bounds to /region info</li>
+  <li>Added the ability to add owners/members to the global region for handling guest groups. Now if there's owners or members on the global region, then those that are not on the list cannot build.</li>
+  <li>Fixed some flag algorithm issues.</li>
+  <li>API: Fixed DefaultDomain.size() not counting players.</li>
+  <li>API: Undeprecated ApplicableRegionSet.allows(StateFlag).</li>
+</ul><h2>5.2</h2>
+<ul>
+  <li>Gave the ability to use color colors and macros in greeting and farewell messages.</li>
+  <li>Added disable-ice-melting, disable-snow-formation, disable-mushroom-spread, disable-snow-melting, disable-ice-formation.</li>
+  <li>Added paintings to blacklist support.</li>
+  <li>Added default.disable-health-regain.</li>
+  <li>Added auto-invincible-permission setting, which lets you use the permission 'worldguard.auto-invincible' to become invincible on join automatically.</li>
+  <li>Flames won't appear if you are /god'ed now.</li>
+  <li>Added blocked-cmds region flag to block commands.</li>
+  <li>Added allowed-cmds region flag to whitelist commands.</li>
+  <li>Added entry region flag to block entry. Use entry-group to determine who this affects.</li>
+  <li>Added exit region flag to block exit. Use exit-group to determine who this affects.</li>
+  <li>Made negative healing possible via the healing flag.</li>
+  <li>Changed the configuration header messages to be more helpful to new users.</li>
+  <li>Added a warning about modifying region files by hand.</li>
+  <li>Improved the API for plugin developers.</li>
+</ul><h2>5.1</h2>
+<ul>
+  <li>A lot of changes.</li>
+</ul><h2>4.0-alpha1</h2>
+<ul>
+  <li>This release is only to fix WorldGuard for Bukkit. Ignore the 4.0 label. Just move along. Nothing to see.</li>
+</ul><h2>3.2.2</h2>
+<ul>
+  <li>Changed disable-water-damage to disable-drowning-damage.</li>
+  <li>Fixed suffocation disable option.</li>
+  <li>Fixed fire spread blocking.</li>
+  <li>stopfire and allowfire now work in server console, just like in hMod.</li>
+</ul><h2>3.2.1</h2>
+<ul>
+  <li>Updated for recent Bukkit ItemStack change.</li>
+</ul><h2>3.2</h2>
+<ul>
+  <li>Added regions.default.pvp to control default PvP setting.</li>
+  <li>Updated WorldGuard for the newer builds of Bukkit.</li>
+  <li>Fixed creeper explosion blocking.</li>
+  <li>Added redstone support to sponges, removed classic water.</li>
+  <li>Fixed item durability disable for hoes.</li>
+</ul><h2>3.1.2</h2>
+<ul>
+  <li>Increased the priority of WorldGuard's event handling.</li>
+</ul><h2>3.1.1</h2>
+<ul>
+  <li>Fixed creeper and chest flag conflicting.</li>
+</ul><h2>3.1</h2>
+<ul>
+  <li>Added ability to disable chest protection. New configuration setting (regions.build.chest-access) and new chest flag.</li>
+  <li>Possibly fixed projectile blocking in no-PvP zones.</li>
+  <li>Added /regionmembership permission that lets people only change the owners and members of regions they own.</li>
+</ul><h2>3.0b2</h2>
+<ul>
+  <li>Fixed issue where built-in permissions were not (re)loaded.</li>
+  <li>Fixed /god not working for others.</li>
+</ul><h2>3.0b1</h2>
+<ul>
+  <li>Added parent-child relationships to regions.</li>
+  <li>Added global build flag.</li>
+  <li>Improved flag support.</li>
+  <li>Fixed no-PvP zone messages being sent to the wrong person.</li>
+  <li>Fixed commands so that they work in a recent version of Bukkit.</li>
+  <li>Fixed NullPointerException in explode hook.</li>
+</ul><h2>2.3.1</h2>
+<ul>
+  <li>Fixed various cast exceptions with the blacklist loggers.</li>
+  <li>Added checks for unchecked exceptions when resolving permissions.</li>
+  <li>Fixed the item durability disable setting changing the damage value on an empty hand.</li>
+</ul><h2>2.3</h2>
+<ul>
+  <li>/god now works very well.</li>
+  <li>Item (TNT, flint and steel, etc.) blocking should now work.</li>
+  <li>The TNT blocking configuration variable should now work.</li>
+  <li>Re-added /heal (not sure where that went), added /slay.</li>
+  <li>Implemented contact damage disable toggle.</li>
+  <li>Made all player damage disabling configuration parameters work.</li>
+  <li>Fixed teleport-on-suffocation setting.</li>
+  <li>Added /locate <name>, /locate <x> <y> <z>, and /locate that lets you program/change your compass bearing to point to a player's position (not yet live), a position, or back to spawn.</li>
+  <li>Fixed CSVDatabase spitting an error if the owners list was empty.</li>
+</ul><h2>2.2</h2>
+<ul>
+  <li>Now supports GroupUsers.</li>
+  <li>Added support for blocking creeper explosions.</li>
+  <li>Fixed a bug where a player's groups were not being loaded correctly, causing the blacklist group ignore option to not work.</li>
+</ul><h2>2.1.1</h2>
+<ul>
+  <li>Fixed fire spread disable preventing flint and steel too.</li>
+  <li>Fixed NullPointerException related to the player item event.</li>
+  <li>Made setup simpler.</li>
+</ul><h2>2.1</h2>
+<ul>
+  <li>Improved Bukkit support.</li>
+</ul><h2>2.0beta3</h2>
+<ul>
+  <li>Fixed NullPointerException inside the ignite hook.</li>
+</ul><h2>2.0beta2</h2>
+<ul>
+  <li>Fixed a NullPointerException in the damage hook.</li>
+</ul><h2>2.0beta1</h2>
+<ul>
+  <li>Added area protection. Use /region or /rg to define regions.</li>
+</ul><h2>1.8.1</h2>
+<ul>
+  <li>Fixed NullPointerException.</li>
+</ul><h2>1.8</h2>
+<ul>
+  <li>Updated for Minecraft beta.</li>
+  <li>Blacklist hooks have CHANGED. The new hooks are work better. on-create has been replaced with on-place (for block placement) and on-use (for item usage, light buckets and lighters). The old on-use is now on-right-click although it currently does nothing.</li>
+  <li>Added coordinates to blacklist file logger.</li>
+  <li>Added suffocation damage prevention.</li>
+</ul><h2>1.7.1</h2>
+<ul>
+  <li>Updated for v0.2.8.</li>
+</ul><h2>1.7</h2>
+<ul>
+  <li>Updated for v0.2.6_02 and hMod b129.</li>
+  <li>Added option to prevent water from damaging particular blocks (Redstone wire, Minecart tracks, etc.). See disable-water-damage-blocks.</li>
+  <li>/reload WorldGuard should now reload WorldGuard's configuration.</li>
+  <li>Added wg-invincible and wg-amphibious groups that let you give certain players invincibility or underwater breathing.</li>
+  <li>Added the ability to disable fall, water, lava, and/or fire damage.</li>
+  <li>Water/lava bucket blocking should now be more reliable.</li>
+  <li>Added /stack (alias /;) commands to stack items in your inventory into piles up to 64 items in size. Even unstackable items like signs can be stacked.</li>
+  <li>/god mode should now let you gain health.</li>
+  <li>/god mode should now work more reliably.</li>
+  <li>Caught an error message for when the configuration file does not exist.</li>
+</ul><h2>1.6</h2>
+<ul>
+  <li>Added spawn protection that prevents damage when a player spawns.</li>
+  <li>Added login protection that prevents damage when a player joins.</li>
+  <li>Added /god. /god can be used on others, provided that the /godother permission is set for the command's user.</li>
+</ul><h2>1.5.1</h2>
+<ul>
+  <li>Removed the 'java.lang.NoSuchMethodError: Item.setDamage(I)V' error generated.</li>
+</ul><h2>1.5</h2>
+<ul>
+  <li>Removed the block lag fix.</li>
+  <li>WorldGuard now conditionally loads features so you can use any up-to-date build of hMod and the unsupported features won't break the entire plugin. When WG loads, check the server console for a report of features that are not supported by your version of hMod.</li>
+  <li>Changed some configuration defaults: disable-lava-fire=true simulate-sponge=true item-durability=false</li>
+</ul><h2>1.4.1</h2>
+<ul>
+  <li>Fixed issue with the block lag fix dropping item stacks of 0 quantity.</li>
+</ul><h2>1.4</h2>
+<ul>
+  <li>New on-acquire hook. This does both a total inventory check on inventory change and item pick up denial. The item pick up denial is largely thanks to Dinnerbone for fulfilling my request to add a particular hook.</li>
+  <li>Item durability can now be toggled with item-durability. Thanks to Dinnerbone for figuring this out while filfilling my request. The default setting is to fix item durability.</li>
+  <li>New no-physics-gravel and no-physics-sand options allow you to prevent gravel and sand from falling.</li>
+  <li>New allow-portal-anywhere option allows you to create portal blocks anywhere.</li>
+</ul><h2>1.3</h2>
+<ul>
+  <li>UPGRADE WARNING: If you are using database logging, you must add a NULL 'comment' VARCHAR field to the table. The line of SQL that you can run for MySQL can be found in blacklist_table.sql.</li>
+  <li>Improved plugin compatibility with the block lag fix. For maximum compatibility, you must now list WorldGuard as the first plugin in server.properties and you cannot reload or enable the plugin while the server is up. This is for bad plugins that unnecessarily use the "critical" priority for its hooks like the LWC. Most plugins don't do that though, so this won't apply for most people.</li>
+  <li>Fixed signs being blank if they were denied via the blacklist.</li>
+  <li>Added on-break event to the blacklist.</li>
+  <li>Added comments and messages. Comments are only for your own use and they are printed with the log and notify actions of the blacklist. The message replaces the message that is shown the user and it is optional.</li>
+  <li>The blacklist notification messages are now more compact and are light grey instead of light purple.</li>
+  <li>The notify, log, and tell actions will now trigger every time for the on-break, on-create, on-drop events rather than wait 3 seconds between events for the same item or block for a player.</li>
+</ul><h2>1.2</h2>
+<ul>
+  <li>/stopfire and /allowfire disable and enable fire spreading globally.</li>
+  <li>Block lag fix slightly improved in accuracy for item drops.</li>
+  <li>Sponge updated to remove water when the sponge block is set. Sponge radius can now be controlled using the 'sponge-radius' parameter and the default is now set to simulate Classic.</li>
+  <li>Updated for a newer build of "b126," meaning that lava spread control now works well!</li>
+  <li>A new summary of the status of some core protections is now printed on start. Disable this with 'summary-on-start'.</li>
+  <li>Blacklist system has been overhauled. Check README.txt for changed configuration settings!</li>
+  <li>The blacklist's method of preventing notification repeats is now better, instead waiting 3 seconds before notifying again (before it didn't notify again at all unless the user started using another blocked action).</li>
+  <li>To give users the ability to receive notifications, the command to give permission to has been changed to /worldguardnotify, although the old one (that was never mentioned anywhere) still works.</li>
+  <li>Water and lava buckets are now psuedo-blocked using an unreliable method that risks the stability of your server (no other plugin does it better though). Use it as your own risk.</li>
+  <li>Added on item drop and on item use (i.e. chest) events.</li>
+  <li>Chests, signs, and furnaces can now be blocked better with the blacklist system.</li>
+  <li>The event names in the blacklist configuration have changed but the old event names should still work. The new names should make "more sense."</li>
+  <li>A new "ban" action has been added to the blacklist.</li>
+  <li>Action messages have been improved, now longer saying "destroyed" for everything.</li>
+  <li>Logging to file has been completely changed, allowing you to use the date and time and the player's username in the log filename. It no longer rotates log files based on size, however.</li>
+  <li>Logging to database is now supported.</li>
+  <li>Tools can now be destroyed on drop to alleviate the durability cheat. You can do this with either with the blacklist or with the 'item-drop-blacklist' configuration option. The configuration option prints more friendly messages than the 'tell' action of blacklists.</li>
+</ul><h2>1.1.2</h2>
+<ul>
+  <li>Block lag fix: Snow and glass should no longer drop items.</li>
+  <li>Block lag fix: Block object now reset after hook call.</li>
+</ul><h2>1.1.1</h2>
+<ul>
+  <li>Fixed redstone wire dropping wood blocks with the block lag fix.</li>
+  <li>The block lag fix now consults other plugins so that ALL protection mechanisms and plugins should work.</li>
+</ul><h2>1.1</h2>
+<ul>
+  <li>Added block lag fix.</li>
+</ul><h2>1.0</h2>
+<ul>
+  <li>Initial release.</li>
+</ul></div>
+</body>
+</html>

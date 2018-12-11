@@ -1,0 +1,278 @@
+SPEED:
+  max-level: 5
+SLOW:
+  max-level: 5
+FAST_DIGGING:
+  max-level: 5
+SLOW_DIGGING:
+  max-level: 5
+INCREASE_DAMAGE:
+  max-level: 5
+HEAL:
+  max-level: 5
+HARM:
+  max-level: 5
+JUMP:
+  max-level: 5
+CONFUSION:
+  max-level: 5
+REGENERATION:
+  max-level: 5
+DAMAGE_RESISTANCE:
+  max-level: 5
+FIRE_RESISTANCE:
+  max-level: 5
+WATER_BREATHING:
+  max-level: 5
+INVISIBILITY:
+  max-level: 5
+BLINDNESS:
+  max-level: 5
+NIGHT_VISION:
+  max-level: 5
+HUNGER:
+  max-level: 5
+WEAKNESS:
+  max-level: 5
+POISON:
+  max-level: 5
+WITHER:
+  max-level: 5
+HEALTH_BOOST:
+  max-level: 5
+ABSORPTION:
+  max-level: 5
+SATURATION:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_24:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_25:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_26:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_27:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_28:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_29:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_30:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_31:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_32:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_33:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_34:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_35:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_36:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_37:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_38:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_39:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_40:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_41:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_42:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_43:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_44:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_45:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_46:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_47:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_48:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_49:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_50:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_51:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_52:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_53:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_54:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_55:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_56:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_57:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_58:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_59:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_60:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_61:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_62:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_63:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_64:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_65:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_66:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_67:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_68:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_69:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_70:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_71:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_72:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_73:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_74:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_75:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_76:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_77:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_78:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_79:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_80:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_81:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_82:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_83:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_84:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_85:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_86:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_87:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_88:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_89:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_90:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_91:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_92:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_93:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_94:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_95:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_96:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_97:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_98:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_99:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_100:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_356:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_101:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_102:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_103:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_104:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_105:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_106:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_107:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_108:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_109:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_110:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_111:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_112:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_113:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_114:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_115:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_116:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_117:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_118:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_119:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_120:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_121:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_122:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_123:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_124:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_125:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_126:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_127:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_128:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_129:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_130:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_131:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_132:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_133:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_134:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_135:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_136:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_137:
+  max-level: 5
+UNKNOWN_EFFECT_TYPE_138:
+  max-level: 5

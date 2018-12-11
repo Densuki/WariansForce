@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>WorldGuard - Upgrading to WorldGuard 6</title>
+<style>
+body {
+  margin: 0;
+  padding: 2em 2em 3em 2em;
+  color: #333;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+.wrapper {
+  margin: auto;
+  max-width: 750px;
+}
+
+a {
+  background: transparent;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+strong {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0 0 0.67em 0;
+}
+
+img {
+  border: 0;
+}
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+pre {
+  overflow: auto;
+}
+
+code,
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a {
+  color: #4183c4;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+  text-decoration: underline;
+}
+
+hr {
+  height: 0;
+  margin: 15px 0;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+hr:before,
+hr:after {
+  display: table;
+  content: " ";
+}
+
+hr:after {
+  clear: both;
+}
+
+blockquote {
+  margin: 0;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ol ol {
+  list-style-type: lower-roman;
+}
+
+dd {
+  margin-left: 0;
+}
+
+code,
+pre {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 12px;
+}
+
+pre {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+*:first-child {
+  margin-top: 0 !important;
+}
+
+*:last-child {
+  margin-bottom: 0 !important;
+}
+
+.anchor {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  padding-right: 6px;
+  padding-left: 30px;
+  margin-left: -30px;
+}
+
+.anchor:focus {
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  position: relative;
+  margin-top: 1.5em;
+  margin-bottom: 16px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+h1 {
+  padding-bottom: 0.3em;
+  font-size: 2.1em;
+  line-height: 1.2;
+  border-bottom: 1px solid #eee;
+}
+
+h2 {
+  padding-bottom: 0.3em;
+  font-size: 1.65em;
+  line-height: 1.225;
+  border-bottom: 1px solid #eee;
+}
+
+h3 {
+  font-size: 1.2em;
+  line-height: 1.43;
+}
+
+h4 {
+  font-size: 1.1em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+h6 {
+  font-size: 1em;
+  color: #777;
+}
+
+p,
+blockquote,
+ul,
+ol,
+dl,
+table,
+pre {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+hr {
+  height: 4px;
+  padding: 0;
+  margin: 16px 0;
+  background-color: #e7e7e7;
+  border: 0 none;
+}
+
+ul,
+ol {
+  padding-left: 2em;
+}
+
+ol ol,
+ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+li>p {
+  margin-top: 16px;
+}
+
+dl {
+  padding: 0;
+}
+
+dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+blockquote {
+  padding: 0 15px;
+  color: #777;
+  border-left: 4px solid #ddd;
+}
+
+blockquote>:first-child {
+  margin-top: 0;
+}
+
+blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all;
+}
+
+table th {
+  font-weight: bold;
+}
+
+table th,
+table td {
+  padding: 6px 13px;
+  border: 1px solid #ddd;
+}
+
+table tr {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+img {
+  max-width: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+code {
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 3px;
+}
+
+code:before,
+code:after {
+  letter-spacing: -0.2em;
+  content: "\00a0";
+}
+
+pre>code {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.highlight {
+  margin-bottom: 16px;
+}
+
+.highlight pre,
+pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+}
+
+.highlight pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+pre {
+  word-wrap: normal;
+}
+
+pre code {
+  display: inline;
+  max-width: initial;
+  padding: 0;
+  margin: 0;
+  overflow: initial;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+pre code:before,
+pre code:after {
+  content: normal;
+}
+</style>
+</head>
+<body>
+<div class="wrapper"><h1>Upgrading to WorldGuard 6</h1><p>Version 6 is a <strong>MAJOR UPGRADE</strong> to WorldGuard so we recommend:</p>
+<ul>
+  <li>Making backups of your worlds</li>
+  <li>Making backups of your WorldGuard configuration</li>
+</ul><p>(Periodical backups are recommended anyway.)</p><p>You can upgrade from any version of WorldGuard 5.</p><p>It is <strong>NOT POSSIBLE TO DOWNGRADE</strong> after upgrading to WorldGuard 6 without loss of data due to the conversion to UUIDs. Do NOT downgrade WorldGuard once you have installed version 6.</p><p>If downgrading becomes necessary, please file a ticket on our issue tracker.</p><p>If this is a <strong>BETA BUILD</strong> or <strong>SNAPSHOT BUILD</strong>, then you should re-read this document every new release until after you have upgraded to a final release. Breaking changes may be added until the final release.</p><p>You have downloaded version 6.0.0-beta-02.</p><h2>Reporting problems</h2><p>You can report bugs that you encounter on our <a href="http://youtrack.sk89q.com">issue tracker</a> and <a href="http://forum.sk89q.com">ask questions on our forum</a>.</p><h2>Breaking changes</h2><p>Be aware of these breaking changes:</p>
+<ul>
+  <li>Children regions now inherit from their parent even if there is no overlap.</li>
+  <li>MySQL support now features the ability to migrate tables. If you are using tables without a prefix, then the new migration code should be able to handle your table. However, if you are using a table prefix, you may encounter trouble with migration.</li>
+  <li>Protection is now a lot more exhaustive so it is no longer, for example, possible to fling sand into a region, grow trees into a region, and so on.build</li>
+  <li>The <code>USE</code> flag is now much more encompassing so you may find that it blocks things like CraftBook gates (for users of CraftBook). To fix that, you can do <code>/rg flag REGION_NAME use allow</code>, but be aware that that will also allow the opening of inventories. To block inventories specifically, use <code>/rg flag REGION_NAME chest-access deny -g nonmembers</code>. The <code>-g nonmembers</code> makes it so only non-members of the region are unable to use chests, but this is optional.</li>
+  <li>If you want to blacklist only water and lava blocks and not buckets, you can no longer apply <code>on-place</code> to water or lava blocks because it will also deny the use of buckets. If you wish to deny the use of just the liquid blocks, use <code>on-use</code>. This is because WorldGuard now considers the use of a bucket also the placement of a liquid block.</li>
+  <li>In the rare situation that you are user of the "auto-invincibility" and "auto-no-drowning" groups (<code>wg-invincible</code> and <code>wg-amphibious</code>), you now have to enable these features in the config (<code>auto-invincible-group: true</code> and <code>auto-no-drowning-group: true</code>). This is because some permission plugins have been causing severe hang ups whenever it is queried for a player's groups, which, in this case, happens to include when the player joins.</li>
+  <li>Plugins that utilize WorldGuard's API may not work anymore. They may crash with errors.</li>
+</ul><h2>Incompatibility issues</h2>
+<ul>
+  <li>Spigot:
+  <ul>
+    <li><code>settings.global-api-cache</code>, if enabled, will crash WG UUID lookups (fixed in Spigot build #1625)</li>
+  </ul></li>
+  <li>EchoPet
+  <ul>
+    <li>Can't spawn pets (<a href="https://github.com/DSH105/EchoPet/issues/393">issue #393</a>)</li>
+  </ul></li>
+  <li>CraftBook
+  <ul>
+    <li>Unable to use mechanics unless the <code>USE</code> flag is explicitly set to <code>ALLOW</code> (<a href="http://youtrack.sk89q.com/issue/CRAFTBOOK-3057">CRAFTBOOK-3057</a>)</li>
+  </ul></li>
+</ul><h2>Major features</h2><h3>UUID support</h3><p>Regions now fully support the use of UUIDs rather than names for storing the owners and members of a region. Commands still accept names, but they are translated into UUIDs in the background. For users who already have existing region data, names will be automatically converted to UUIDs on the first run of WorldGuard.</p><p>It is still possible to specify names rather than a UUID by using the <code>-n</code> flag with the region membership commands.</p><h3>'Deny by default'</h3><p>Previously, a pre-determined list of blocks and entities was used to determine whether an action by the player should be blocked. However, this has been reversed so that every action on a block or entity is denied (in a protected region) unless it has been deemed safe (such as, for example, right clicking with steak). Mods are now supported as a result.</p><p>The <code>USE</code> flag has been repurposed as a general "interaction" flag and covers every left click or right click of a block or entity. It also covers interaction that falls outside clicking.</p><h3>Exhaustive protection</h3><p>More events are now handled in the protection code. For example,</p>
+<ul>
+  <li>It is no longer possible to drop sand or gravel into a protected region from outside.</li>
+  <li>It is no longer possible to grief a region by growing a tree into it.</li>
+  <li>The entry and exit flags now handle players sitting on vehicles properly.</li>
+  <li>Piston-moved blocks cannot be pushed into a different protected region.</li>
+  <li>Owners of tamable animals are now considered in protection code.</li>
+</ul><p>Even water and lava flow can also be checked, although this requires that it be explicitly enabled in the configuration (flow events are very frequent, so they incur extra CPU cost).</p><p>The goal is to provide extremely exhaustive protection.</p><h3>Large performance boost for spatial queries</h3><p>The performance of spatial queries for regions has been substantially increased at least an order of magnitude. Spatial queries are a necessity for the region code to query the list of regions that apply to a location in the world. There should be a negligible difference between 4, 40, and 4000 regions as long as too many regions are not overlapping.</p><h3>Background region operations</h3><p>Region commands are now executed in the background. Notably, saves and loads will not lock up your server while they complete. Additionally, changes to regions are now saved periodically rather than immediately after every change.</p><h3>Updated MySQL region support</h3><p>MySQL support has been completely overhauled. It should now be faster, no longer crash on foreign key index errors, use transactions, and support automatic creation and migration of tables (including support for table prefixes).</p><h3>Partial region data saving</h3><p>For users of MySQL, WorldGuard now only saves changed and deleted regions when saving region data. No longer does WorldGuard have to rewrite the entire region database on each save.</p><h3>Improved handling of related flags</h3><p>Multiple flags that apply to an event are now evaluated together if they are similar. For example, if a player right clicks a bed to sleep in it, both the <code>USE</code> and <code>SLEEP</code> flag are checked since they are both interaction-related. If one of them is <code>DENY</code>, then sleeping is denied (remember, <code>DENY</code> overrides <code>ALLOW</code>). If one of them is <code>ALLOW</code> and the other is not <code>DENY</code>, then sleeping is permitted.</p><h3>Flag groups now work properly</h3><p>While you could always set a group to a flag's value, the functionality was incomplete and did not work most of the time.</p><p>Now that groups are supported, you can change a flag so it only applies to a certain group of players. For example, <code>/rg flag example sleep deny -g members</code> would deny sleeping for only members of the <code>example</code> region.</p><h3>Inheritance now works as expected</h3><p>Previously, a region only inherited flags and other details from its parents if the parent and the child overlapped at the location queried. This is no longer the case and inheritance is now always applied. </p><p>In addition, a new <code>-g</code> flag for <code>/rg define</code> lets you create a region with no physical area so that you can assign flags and use this region as a "template region."</p><h3>Settable deny message</h3><p>It is now possible to change the message that users get when they are prevented from interacting with blocks or entities. This message is defined as a region flag, so you can set it on the <code>__global__</code> region or override it in a specific region. In addition, the tone and color of the default message has been softened, but you are free to change it entirely.</p><h3>Blacklist support for data values (and later, variants)</h3><p>The blacklist was rewritten to support more than just block and item IDs. The immediate result is that you can now use data values, but as those are in the process of being deprecated by Mojang, it also allows support for Minecraft's new block variants in the future.</p><h3>Debounced events</h3><p>Events that tend to reoccur very frequently (such as the ones that occur when you stand on a pressure plate continuously) have been "debounced" to reduce the number of checks that WorldGuard has to perform, reducing the amount of wasted CPU. In addition, the "you don't have permission" message is rate limited so players are not flooded with the message.</p><h3>New block place and break flags</h3><p>A long requested feature was the availability of block place and break flags. These newly added flags work in tandem with the <code>BUILD</code> flag but can override <code>BUILD</code>. At the moment, it is not possible to allow explicit types of blocks to be placed or broken yet.</p><h3>Build permission nodes</h3><p>A new optional (disabled by default in the configuration) feature is the checking of build permission nodes. For every block, entity, and item, the following permission nodes are checked:</p>
+<ul>
+  <li>Block place: <code>worldguard.build.block.place.&lt;material&gt;</code></li>
+  <li>Block break: <code>worldguard.build.block.remove.&lt;material&gt;</code></li>
+  <li>Block interact: <code>worldguard.build.block.interact.&lt;material&gt;</code></li>
+  <li>Entity spawn: <code>worldguard.build.entity.place.&lt;type&gt;</code></li>
+  <li>Entity destroy: <code>worldguard.build.entity.remove.&lt;type&gt;</code></li>
+  <li>Entity interact: <code>worldguard.build.entity.interact.&lt;type&gt;</code></li>
+  <li>Entity damage: <code>worldguard.build.entity.damage.&lt;type&gt;</code></li>
+  <li>Item use: <code>worldguard.build.item.use.&lt;material&gt;</code></li>
+</ul><p>In addition, the permissions are also checked in the style of <code>worldguard.build.block.&lt;material&gt;.&lt;action&gt;</code>, so <code>worldguard.build.block.&lt;material&gt;.place</code> would work too.</p><p>The list of usable material names comes from the <a href="http://jd.bukkit.org/rb/apidocs/org/bukkit/Material.html">Material enumeration in Bukkit</a>. For example, the permission for placing the bed block would be <code>worldguard.build.build.place.bed_block</code>. Be aware that <em>Material</em> contains both item and block names.</p><p>For entity names, see <a href="http://jd.bukkit.org/rb/apidocs/org/bukkit/entity/EntityType.html">EntityType</a>.</p><h1>Other changes</h1><p>The rest of the changes can be found in the CHANGELOG file.</p></div>
+</body>
+</html>

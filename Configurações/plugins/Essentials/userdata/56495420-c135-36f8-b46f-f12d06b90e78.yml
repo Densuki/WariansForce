@@ -1,0 +1,61 @@
+lastAccountName: J0kerZ1
+timestamps:
+  login: 1544554848430
+  lastteleport: 1544557212573
+  logout: 1544474497530
+  kits:
+    mkvi: 1543967655459
+    firework: 1543966847207
+    sniperm395b: 1543966942467
+    color: 1543966892648
+    notch: 1543966902988
+    dtools: 1543964860223
+    tools: 1543962457330
+    marine: 1543966920779
+    specops: 1543968029643
+ipAddress: 25.80.39.147
+lastlocation:
+  world: world
+  x: 820.1158842234537
+  y: 57.16128461540301
+  z: -1370.5434298089024
+  yaw: 83.84534
+  pitch: 28.217722
+logoutlocation:
+  world: world
+  x: 818.8257963380934
+  y: 57.0
+  z: -1372.8818510463566
+  yaw: -3.2966309
+  pitch: 17.69997
+homes:
+  casa:
+    world: world
+    x: 818.5
+    y: 57.0
+    z: -1370.5
+    yaw: 75.449974
+    pitch: 9.000002
+  mina:
+    world: world
+    x: 935.5604561391352
+    y: 41.0
+    z: -1521.6390965742335
+    yaw: 84.00256
+    pitch: 29.84999
+  lava:
+    world: world
+    x: 820.7157926628133
+    y: 11.0
+    z: -1273.3558410188957
+    yaw: -207.88855
+    pitch: 31.349863
+  nether:
+    world: DIM-1
+    x: 152.69999998807904
+    y: 57.0
+    z: 64.02904506370628
+    yaw: -17.562134
+    pitch: -33.150055
+godmode: false
+afk: false

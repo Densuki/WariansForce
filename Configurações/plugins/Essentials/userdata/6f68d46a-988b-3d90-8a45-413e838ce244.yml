@@ -1,0 +1,72 @@
+lastAccountName: ianL1301
+timestamps:
+  login: 1544558946031
+  logout: 1544558858342
+  lastteleport: 1544559291572
+  kits:
+    firework: 1543964855361
+    mkvi: 1544040173874
+    sniperm395b: 1543968072516
+    inicial: 1544040165568
+    tools: 1543964615646
+    specops: 1544040144867
+    marine: 1544040075220
+ipAddress: 25.30.82.181
+lastlocation:
+  world: world
+  x: 816.8461840237607
+  y: 57.0
+  z: -1371.140877773836
+  yaw: 42.292507
+  pitch: -2.1036434
+logoutlocation:
+  world: world
+  x: 161.5
+  y: 65.0
+  z: -287.5
+  yaw: -267.1499
+  pitch: 10.799996
+homes:
+  home:
+    world: world
+    x: 817.0440847782427
+    y: 57.0
+    z: -1369.821753602719
+    yaw: 75.449974
+    pitch: 9.000002
+  casa:
+    world: world
+    x: 817.0440847782427
+    y: 57.0
+    z: -1369.821753602719
+    yaw: 75.449974
+    pitch: 9.000002
+  jornada:
+    world: Abyss
+    x: 1710.0311452779956
+    y: 68.0
+    z: 1475.3345142734754
+    yaw: -292.18076
+    pitch: 6.2437816
+  mercadinho:
+    world: world
+    x: 712.5247533473047
+    y: 64.0
+    z: -1327.5980037243328
+    yaw: 156.14983
+    pitch: 17.549938
+  densuki:
+    world: world
+    x: 5542.60759643102
+    y: 64.0
+    z: -151.3840804477744
+    yaw: 259.6134
+    pitch: 20.145702
+  euvoumorrer:
+    world: DIM20
+    x: 8.896634312815515
+    y: 82.0
+    z: 16.974987669717926
+    yaw: 226.73474
+    pitch: 4.200005
+afk: true

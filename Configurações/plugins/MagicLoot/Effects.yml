@@ -1,0 +1,278 @@
+Speed:
+  max-level: 10
+Slow:
+  max-level: 10
+Fast digging:
+  max-level: 10
+Slow digging:
+  max-level: 10
+Increase damage:
+  max-level: 10
+Heal:
+  max-level: 10
+Harm:
+  max-level: 10
+Jump:
+  max-level: 10
+Confusion:
+  max-level: 10
+Regeneration:
+  max-level: 10
+Damage resistance:
+  max-level: 10
+Fire resistance:
+  max-level: 10
+Water breathing:
+  max-level: 10
+Invisibility:
+  max-level: 10
+Blindness:
+  max-level: 10
+Night vision:
+  max-level: 10
+Hunger:
+  max-level: 10
+Weakness:
+  max-level: 10
+Poison:
+  max-level: 10
+Wither:
+  max-level: 10
+Health boost:
+  max-level: 10
+Absorption:
+  max-level: 10
+Saturation:
+  max-level: 10
+Unknown effect type 24:
+  max-level: 10
+Unknown effect type 25:
+  max-level: 10
+Unknown effect type 26:
+  max-level: 10
+Unknown effect type 27:
+  max-level: 10
+Unknown effect type 28:
+  max-level: 10
+Unknown effect type 29:
+  max-level: 10
+Unknown effect type 30:
+  max-level: 10
+Unknown effect type 31:
+  max-level: 10
+Unknown effect type 32:
+  max-level: 10
+Unknown effect type 33:
+  max-level: 10
+Unknown effect type 34:
+  max-level: 10
+Unknown effect type 35:
+  max-level: 10
+Unknown effect type 36:
+  max-level: 10
+Unknown effect type 37:
+  max-level: 10
+Unknown effect type 38:
+  max-level: 10
+Unknown effect type 39:
+  max-level: 10
+Unknown effect type 40:
+  max-level: 10
+Unknown effect type 41:
+  max-level: 10
+Unknown effect type 42:
+  max-level: 10
+Unknown effect type 43:
+  max-level: 10
+Unknown effect type 44:
+  max-level: 10
+Unknown effect type 45:
+  max-level: 10
+Unknown effect type 46:
+  max-level: 10
+Unknown effect type 47:
+  max-level: 10
+Unknown effect type 48:
+  max-level: 10
+Unknown effect type 49:
+  max-level: 10
+Unknown effect type 50:
+  max-level: 10
+Unknown effect type 51:
+  max-level: 10
+Unknown effect type 52:
+  max-level: 10
+Unknown effect type 53:
+  max-level: 10
+Unknown effect type 54:
+  max-level: 10
+Unknown effect type 55:
+  max-level: 10
+Unknown effect type 56:
+  max-level: 10
+Unknown effect type 57:
+  max-level: 10
+Unknown effect type 58:
+  max-level: 10
+Unknown effect type 59:
+  max-level: 10
+Unknown effect type 60:
+  max-level: 10
+Unknown effect type 61:
+  max-level: 10
+Unknown effect type 62:
+  max-level: 10
+Unknown effect type 63:
+  max-level: 10
+Unknown effect type 64:
+  max-level: 10
+Unknown effect type 65:
+  max-level: 10
+Unknown effect type 66:
+  max-level: 10
+Unknown effect type 67:
+  max-level: 10
+Unknown effect type 68:
+  max-level: 10
+Unknown effect type 69:
+  max-level: 10
+Unknown effect type 70:
+  max-level: 10
+Unknown effect type 71:
+  max-level: 10
+Unknown effect type 72:
+  max-level: 10
+Unknown effect type 73:
+  max-level: 10
+Unknown effect type 74:
+  max-level: 10
+Unknown effect type 75:
+  max-level: 10
+Unknown effect type 76:
+  max-level: 10
+Unknown effect type 77:
+  max-level: 10
+Unknown effect type 78:
+  max-level: 10
+Unknown effect type 79:
+  max-level: 10
+Unknown effect type 80:
+  max-level: 10
+Unknown effect type 81:
+  max-level: 10
+Unknown effect type 82:
+  max-level: 10
+Unknown effect type 83:
+  max-level: 10
+Unknown effect type 84:
+  max-level: 10
+Unknown effect type 85:
+  max-level: 10
+Unknown effect type 86:
+  max-level: 10
+Unknown effect type 87:
+  max-level: 10
+Unknown effect type 88:
+  max-level: 10
+Unknown effect type 89:
+  max-level: 10
+Unknown effect type 90:
+  max-level: 10
+Unknown effect type 91:
+  max-level: 10
+Unknown effect type 92:
+  max-level: 10
+Unknown effect type 93:
+  max-level: 10
+Unknown effect type 94:
+  max-level: 10
+Unknown effect type 95:
+  max-level: 10
+Unknown effect type 96:
+  max-level: 10
+Unknown effect type 97:
+  max-level: 10
+Unknown effect type 98:
+  max-level: 10
+Unknown effect type 99:
+  max-level: 10
+Unknown effect type 100:
+  max-level: 10
+Unknown effect type 356:
+  max-level: 10
+Unknown effect type 101:
+  max-level: 10
+Unknown effect type 102:
+  max-level: 10
+Unknown effect type 103:
+  max-level: 10
+Unknown effect type 104:
+  max-level: 10
+Unknown effect type 105:
+  max-level: 10
+Unknown effect type 106:
+  max-level: 10
+Unknown effect type 107:
+  max-level: 10
+Unknown effect type 108:
+  max-level: 10
+Unknown effect type 109:
+  max-level: 10
+Unknown effect type 110:
+  max-level: 10
+Unknown effect type 111:
+  max-level: 10
+Unknown effect type 112:
+  max-level: 10
+Unknown effect type 113:
+  max-level: 10
+Unknown effect type 114:
+  max-level: 10
+Unknown effect type 115:
+  max-level: 10
+Unknown effect type 116:
+  max-level: 10
+Unknown effect type 117:
+  max-level: 10
+Unknown effect type 118:
+  max-level: 10
+Unknown effect type 119:
+  max-level: 10
+Unknown effect type 120:
+  max-level: 10
+Unknown effect type 121:
+  max-level: 10
+Unknown effect type 122:
+  max-level: 10
+Unknown effect type 123:
+  max-level: 10
+Unknown effect type 124:
+  max-level: 10
+Unknown effect type 125:
+  max-level: 10
+Unknown effect type 126:
+  max-level: 10
+Unknown effect type 127:
+  max-level: 10
+Unknown effect type 128:
+  max-level: 10
+Unknown effect type 129:
+  max-level: 10
+Unknown effect type 130:
+  max-level: 10
+Unknown effect type 131:
+  max-level: 10
+Unknown effect type 132:
+  max-level: 10
+Unknown effect type 133:
+  max-level: 10
+Unknown effect type 134:
+  max-level: 10
+Unknown effect type 135:
+  max-level: 10
+Unknown effect type 136:
+  max-level: 10
+Unknown effect type 137:
+  max-level: 10
+Unknown effect type 138:
+  max-level: 10

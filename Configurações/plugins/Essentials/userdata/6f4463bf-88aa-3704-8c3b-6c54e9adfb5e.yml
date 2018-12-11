@@ -1,0 +1,28 @@
+lastlocation:
+  world: world
+  x: 158.5
+  y: 74.0
+  z: -295.5
+  yaw: 0.0
+  pitch: 0.0
+lastAccountName: richardbr1
+timestamps:
+  login: 1543844916657
+  lastteleport: 1540764633891
+  logout: 1543845045645
+ipAddress: 25.50.63.146
+logoutlocation:
+  world: world
+  x: 176.65971631995288
+  y: 64.0
+  z: -283.6959622962894
+  yaw: 142.05048
+  pitch: 12.900046
+homes:
+  home:
+    world: world
+    x: 5097.71638440746
+    y: 222.0
+    z: 362.4718380939846
+    yaw: -104.20229
+    pitch: 18.150013

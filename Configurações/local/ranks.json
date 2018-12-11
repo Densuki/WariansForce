@@ -1,0 +1,26 @@
+{
+	"default_ranks": {
+		"player": "player",
+		"op": "op"
+	},
+	"ranks": {
+		"player": {
+			"parent": "builtin_player",
+			"permissions": [],
+			"config": {}
+		},
+		"op": {
+			"parent": "builtin_op",
+			"syntax": "<&2$name&r> ",
+			"permissions": [],
+			"config": {}
+		},
+		"minions": {
+			"parent": "player",
+			"permissions": [
+				"+commands.tp"
+			],
+			"config": {}
+		}
+	}
+}

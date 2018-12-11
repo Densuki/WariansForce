@@ -1,0 +1,22 @@
+signs:
+  world,166,66,-279:
+    redstone: false
+    owner: Densuki
+    text:
+    - /weather storm 9999
+    active: true
+    cooldowns: {}
+  world,166,66,-280:
+    redstone: false
+    owner: Densuki
+    text:
+    - /weather sun
+    active: true
+    cooldowns: {}
+  world,166,66,-276:
+    redstone: false
+    owner: Densuki
+    text:
+    - /lagg clear
+    active: true
+    cooldowns: {}

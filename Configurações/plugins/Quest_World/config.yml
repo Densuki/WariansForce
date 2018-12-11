@@ -1,0 +1,60 @@
+options:
+  give-questbook-on-join: true
+  currency-symbol: $
+  auto-update: true
+  show-border-on-partial-completion: false
+  play-effect-on-partial-completion: false
+  quest-check-delay-in-seconds: 5
+categories:
+  '0':
+    name: '&6Test Category'
+    display-item: SPONGE
+    durability: 0
+    lore:
+    - ''
+    - '&a> Click to open'
+quests:
+  0-0:
+    name: '&a&lZombie Hunter'
+    display-item: IRON_SWORD
+    durability: 0
+    mission: kill.ZOMBIE.1
+    reward: 10
+    message: '&bBRRRRRAAAAAAAAAAIIIIIINSSS!'
+  0-1:
+    name: '&a&lGoing OP'
+    display-item: GOLDEN_APPLE
+    durability: 1
+    mission: craft.GOLDEN_APPLE.1
+    reward: 50
+    message: '&bHmmm, can I eat this?'
+  0-2:
+    name: '&a&lKill the Creator'
+    display-item: SKULL_ITEM
+    durability: 3
+    mission: killPlayer.Moewe1.1
+    reward: 1000
+    message: '&bWhat have I done to you? I made this Plugin for you and YOU KILL ME?
+      Seriously? =P'
+  0-3:
+    name: '&a&lHide and Seek'
+    display-item: LEATHER_HELMET
+    durability: 0
+    mission: find.VILLAGER.&aPeter
+    reward: 100
+    message: '&bHey man, lets play Hide and Seek, I bet you wont find &aPeter'
+  0-4:
+    name: '&6Back to the Roots!'
+    display-item: LOG
+    durability: 0
+    mission: arrive.0.0.16
+    reward: 80
+    message: '&aGo beyond your Horizon and find your Origin. Where it all started...
+      At X:0 Z:0'
+  0-5:
+    name: '&a&lReady for Enchanting'
+    display-item: EXP_BOTTLE
+    durability: 0
+    mission: levelup.30
+    reward: 25
+    message: '&6Get enough XP to enchant at Level 30'

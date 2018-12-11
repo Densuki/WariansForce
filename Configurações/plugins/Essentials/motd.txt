@@ -1,0 +1,4 @@
+&6Seja bem-vindo(a), {PLAYER}&6!
+&6Use &c/help&6 para obter a lista de comandos.
+&6Type &c/list&6 para ver quem esta online.
+&6Players online:&c {ONLINE} &6- Tempo do jogo:&c {WORLDTIME12}

@@ -1,0 +1,14 @@
+Installation:
+
+Step 1: Drop SimpleRestart.jar in your plugins folder. Optional Copy the SimpleRestart folder into plugins folder as well for a detailed config
+
+Step 2: Either Use your own start script or one of the included scripts. 
+        Remember .bat is for Windows .sh is For Linux and .command is for MacOSX
+
+Step 3: If you are using one of the included scrips remember to either rename your server .jar to spigot.jar
+        OR edit the start script and replace spigot.jar with the name of your server .jar E.G. paperclip.jar if your using Paper Spigot
+
+Step 4: Edit the spigot.yml, This bit > "restart-script: ./start.sh" 
+        to "restart-script: ./start.bat" or whatever your OS Runs as stated in step 2
+
+Step 5: Profit?

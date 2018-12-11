@@ -1,0 +1,15 @@
+# 
+# bot token
+token: NDk0OTk0MTAwMzUzODkyMzcy.DrdMBw.OPq9A3G0tThjTHeWHkolckD0Xts
+channelid: 506098385691082752
+message_format_mc: '&b[Discord]&r %client%&7: &f%text%'
+message_title_dc: '%player% (Minecraft chat)'
+panel_color: '#4b088a'
+bot_playing: ''
+joinMessage: '%player% entrou no servidor.'
+quitMessage: '%player% saiu do servidor.'
+deathMessage: '%msg%'
+restricted: false
+allowPlayerList: true
+groupsid: []
+usersid: []

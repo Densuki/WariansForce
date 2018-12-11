@@ -1,0 +1,379 @@
+# Group inheritance
+#
+# Any inherited groups prefixed with a g: are global groups
+# and are inherited from the GlobalGroups.yml.
+#
+# Groups without the g: prefix are groups local to this world
+# and are defined in the this groups.yml file.
+#
+# Local group inheritances define your promotion tree when using 'manpromote/mandemote'
+
+groups:
+  Default:
+    default: true
+    permissions:
+    - essentials.help
+    - essentials.spawn
+    - essentials.me
+    - essentials.mail
+    - essentials.balance
+    - essentials.worth
+    - essentials.afk
+    - essentials.compass
+    - essentials.info
+    - essentials.list
+    - essentials.nick
+    - essentials.realname
+    - essentials.whois
+    - essentials.back
+    - essentials.home.balance
+    - essentials.home.worth
+    - essentials.home.afk
+    - essentials.home.compass
+    - essentials.home.info
+    - essentials.home.list
+    - essentials.home.nick
+    - essentials.home.realname
+    - essentials.home.whois
+    - essentials.home.back
+    - essentials.home
+    - essentials.rules
+    - essentials.motd
+    - essentials.msg
+    - essentials.ping
+    - essentials.tpdeny
+    - essentials.tpaccept
+    - essentials.tp
+    - modifyworld.chat
+    - playerskinchanger.use
+    - multiverse.portal.access.*
+    - multiverse.teleport.*
+    - multiverse.access.*
+    inheritance:
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    - g:essentials_builder
+    info:
+      prefix: ''
+      build: true
+      suffix: ''
+  Membro:
+    default: true
+    permissions:
+    - bukkit.command.kill
+    - essentials.spawn
+    - essentials.delhome
+    - essentials.sethome
+    - essentials.home
+    - bukkit.command.tell
+    - essentials.tell
+    - discordsrv.chat
+    - discordsrv.help
+    - discordsrv.subscribe
+    - discordsrv.unsubscribe
+    - discordsrv.toggle
+    - discordsrv.link
+    - discordsrv.linked
+    - guishop.use
+    - guishop.sign.use
+    - guishop.sign.place
+    - guishop.sell
+    - essentials.protect.*
+    - essentials.kit
+    - bukkit.command.tell
+    - essentials.msg
+    - essentials.kits.*
+    inheritance:
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      prefix: '&8[&a&lTrabalhador NAO Escravo&8]&f'
+      build: true
+      suffix: ''
+  SlimeFun:
+    default: false
+    permissions:
+    - slimefun.cheat.items
+    - slimefun.cheat.researches
+    - slimefun.command.timings
+    - slimefun.stats.others
+    - slimefun.android.upload-script
+    - slimefun.android.bypass
+    - slimefun.cargo.bypass
+    - slimefun.inventory.bypas
+    inheritance:
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    - g:essentials_builder
+    info:
+      prefix: ''
+      build: true
+      suffix: ''
+  Perms:
+    default: false
+    permissions:
+    - modifyworld.*
+    - multiverse.portal.access.*
+    - multiverse.portal.config
+    - multiverse.portal.create
+    - multiverse.portal.debug
+    - multiverse.portal.exempt.*
+    - multiverse.portal.fill.*
+    - multiverse.portal.givewand
+    - multiverse.portal.info
+    - multiverse.portal.list
+    - multiverse.portal.modify
+    - multiverse.portal.remove
+    - multiverse.portal.select
+    - multiverse.teleport.*
+    - multiverse.portal.access.pvp
+    - multiverse.teleport.*
+    - multiverse.access.*
+    - multiverse.portal.exempt.*
+    - multiverse.*
+    - multiverse.core.create.*
+    - multiverse.portal.access.*
+    - dynmap.*
+    - dynmap.render
+    - dynmap.show.self
+    - dynmap.show.others
+    - dynmap.hide.self
+    - dynmap.hide.others
+    - dynmap.fullrender
+    - dynmap.radiusrender
+    - dynmap.updaterender
+    - dynmap.cancelrender
+    - dynmap.pause
+    - dynmap.reload
+    - dynmap.stats
+    - dynmap.resetstats
+    - dynmap.sendtoweb
+    - dynmap.purgequeue
+    - dynmap.ids-for-ip
+    - dynmap.ips-for-id
+    - dynmap.add-id-for-ip
+    - dynmap.del-id-for-ip
+    - dynmap.marker.add
+    - dynmap.marker.movehere
+    - dynmap.marker.update
+    - dynmap.marker.delete
+    - dynmap.marker.list
+    - dynmap.marker.icons
+    - dynmap.marker.addset
+    - dynmap.marker.updateset
+    - dynmap.marker.deleteset
+    - dynmap.marker.listsets
+    - dynmap.marker.addicon
+    - dynmap.marker.updateicon
+    - dynmap.marker.deleteicon
+    - dynmap.marker.addarea
+    - dynmap.marker.updatearea
+    - dynmap.marker.deletearea
+    - dynmap.marker.listareas
+    - dynmap.marker.addline
+    - dynmap.marker.updateline
+    - dynmap.marker.deleteline
+    - dynmap.marker.listlines
+    - dynmap.dmap.worldlist
+    - dynmap.dmap.worldset
+    - dynmap.dmap.worldreset
+    - dynmap.dmap.mapdelete
+    - dynmap.dmap.mapset
+    - dynmap.dmap.mapadd
+    - dynmap.dmap.perspectivelist
+    - dynmap.dmap.shaderlist
+    - dynmap.dmap.lightinglist
+    - dynmap.webregister
+    - dynmap.webregister.other
+    - dynmap.webchat
+    - vault.admin
+    inheritance:
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    - g:essentials_builder - modifyworld.*
+    info:
+      prefix: ''
+      build: true
+      suffix: ''
+  GuiShop:
+    default: false
+    permissions:
+    - guishop.creator
+    - guishop.use
+    - guishop.sign.use
+    - guishop.sign.place
+    - guishop.sell
+    inheritance:
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      prefix: ''
+      build: true
+      suffix: ''
+  TheSeventhOne:
+    default: false
+    permissions:
+    - bukkit.command.kill
+    - bukkit.command.give
+    - bukkit.command.help
+    - bukkit.command.kill
+    - bukkit.command.plugins
+    - bukkit.command.reload
+    - bukkit.command.save
+    - bukkit.command.save.disable
+    - bukkit.command.save.enable
+    - bukkit.command.teleport
+    - bukkit.command.tell
+    - bukkit.command.time
+    - bukkit.command.time.add
+    - bukkit.command.time.set
+    - bukkit.command.weather
+    - essentials.rules
+    - essentials.spawn
+    - essentials.help
+    - essentials.afk
+    - essentials.afk.auto
+    - essentials.back
+    - essentials.book
+    - essentials.chat.color
+    - essentials.chat.format
+    - essentials.compass
+    - essentials.delhome
+    - essentials.hat
+    - essentials.home
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpahere
+    - essentials.tpdeny
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.suicide
+    - essentials.time
+    - essentials.sethome
+    - essentials.sethome.bed
+    - essentials.nick
+    - essentials.pay
+    - essentials.ping
+    - essentials.setwarp
+    - discordsrv.player
+    - discordsrv.updatenotification
+    - discordsrv.bcast
+    - discordsrv.setpicture
+    - discordsrv.reload
+    - discordsrv.debug
+    - discordsrv.linked.others
+    - discordsrv.unlink
+    - discordsrv.unlink.others
+    - lagg.clear
+    - lagg.killmobs
+    - playerskinchanger.use
+    - sr.use
+    - guishop.creator
+    - guishop.use
+    - guishop.sign.use
+    - guishop.sign.place
+    - guishop.sell
+    - multiverse.teleport.*
+    - essentials.weather
+    - essentials.protect.alerts
+    - essentials.protect.admin
+    - essentials.protect.ownerinfo
+    - essentials.essentials
+    - essentials.world
+    - essentials.worlds.*
+    - essentials.build
+    - essentials.chat.color
+    - essentials.chat.format
+    - essentials.protect.*
+    inheritance:
+    - GuiShop
+    - Membro
+    - Default
+    - SlimeFun
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    - g:essentials_builder
+    - g:towny_builder
+    - g:towny_admin
+    info:
+      prefix: '&8[&5&lMembro+&8]&f'
+      build: true
+      suffix: ''
+  Builder:
+    default: false
+    permissions: []
+    inheritance:
+    - default
+    - g:essentials_builder
+    - g:towny_builder
+    info:
+      prefix: '&2'
+      build: true
+      suffix: ''
+  Builder:
+    default: false
+    permissions: []
+    inheritance:
+    - default
+    - g:essentials_builder
+    - g:towny_builder
+    info:
+      prefix: '&2'
+      build: true
+      suffix: ''
+  Moderator:
+    default: false
+    permissions: []
+    inheritance:
+    - builder
+    - g:groupmanager_moderator
+    - g:bukkit_moderator
+    - g:essentials_moderator
+    - g:towny_moderator
+    - g:vanish_moderator
+    info:
+      prefix: '&8[&e&lMOD&8]&f'
+      build: true
+      suffix: ''
+  Admin:
+    default: false
+    permissions: []
+    inheritance:
+    - moderator
+    - g:groupmanager_admin
+    - g:bukkit_admin
+    - g:essentials_admin
+    - g:towny_admin
+    - g:vanish_admin
+    info:
+      prefix: '&8[&4&lADMIN&8]&f'
+      build: true
+      suffix: ''
+  Dono:
+    default: false
+    permissions:
+    - '*'
+    - -vanish.effects.*
+    - +vanish.effects.toggle.all
+    - multiverse.portal.access.*
+    - multiverse.portal.fill.*
+    - multiverse.portal.access.*
+    - multiverse.portal.create
+    inheritance:
+    - admin
+    info:
+      prefix: '&4[&5&lDono&3]'
+      build: true
+      suffix: ''

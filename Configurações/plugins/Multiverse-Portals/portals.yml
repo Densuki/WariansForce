@@ -1,0 +1,45 @@
+portals:
+  '1':
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Densuki
+    location: 154.0,64.0,-277.0:154.0,68.0,-277.0
+    world: world
+    destination: DIM-1
+  '2':
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Densuki
+    location: -14.0,41.0,45.0:-14.0,48.0,45.0
+    world: DIM-1
+    destination: world
+  bet1:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Densuki
+    location: 163.0,64.0,-275.0:163.0,68.0,-275.0
+    world: world
+    destination: DIM20
+  bet2:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Densuki
+    location: 11.0,64.0,-8.0:11.0,69.0,-8.0
+    world: DIM20
+    destination: world

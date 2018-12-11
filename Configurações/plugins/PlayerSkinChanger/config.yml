@@ -1,0 +1,7 @@
+# The plugin's config
+waiting-time: 3
+retrying-time: 60
+messages:
+  '1': '&6Loading your skin...'
+  '2': '&aSkin loaded !'
+  '3': '&cFailed to load your skin, re-trying in /n/ seconds.'

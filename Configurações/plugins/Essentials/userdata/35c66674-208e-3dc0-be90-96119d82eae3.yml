@@ -1,0 +1,28 @@
+lastAccountName: richardbr2
+timestamps:
+  login: 1543956136423
+  logout: 1543956234485
+  lastteleport: 1543850294833
+ipAddress: 25.50.63.146
+lastlocation:
+  world: world
+  x: -364.71215330095544
+  y: 28.0
+  z: 536.5915570648989
+  yaw: 172.69812
+  pitch: 13.999935
+logoutlocation:
+  world: world
+  x: -363.5708579352764
+  y: 28.0
+  z: 555.3887133906032
+  yaw: 88.04651
+  pitch: 6.721111
+homes:
+  home:
+    world: world
+    x: 100.79841019062448
+    y: 75.0
+    z: 1819.4672443690004
+    yaw: 237.76103
+    pitch: 18.596651

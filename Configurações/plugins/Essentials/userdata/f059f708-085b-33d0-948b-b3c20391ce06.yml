@@ -1,0 +1,38 @@
+lastAccountName: Guilherme_GameHD
+timestamps:
+  login: 1543971163830
+  kits:
+    mkvi: 1543967932889
+    sniperm395b: 1543966943601
+    notch: 1543951129322
+    dtools: 1543967215184
+    tools: 1543962422031
+    specops: 1543966825889
+    marine: 1543968066694
+  logout: 1543972681255
+  lastteleport: 1543972384514
+ipAddress: 25.72.224.151
+lastlocation:
+  world: world
+  x: -357.3906530345921
+  y: 402.5801884921556
+  z: 638.973891680415
+  yaw: -239.04774
+  pitch: 72.90004
+logoutlocation:
+  world: world
+  x: -363.2607886351391
+  y: 3.0
+  z: 671.0219560095535
+  yaw: -303.99667
+  pitch: 44.700016
+homes:
+  home:
+    world: world
+    x: 816.0793281894461
+    y: 65.0
+    z: -1368.6036615366233
+    yaw: -6.300049
+    pitch: 50.700005
+afk: false
+nickname: "\xa75GuilhermeHD"

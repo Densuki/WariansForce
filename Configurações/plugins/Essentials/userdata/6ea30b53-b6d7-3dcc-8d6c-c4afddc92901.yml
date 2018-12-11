@@ -1,0 +1,65 @@
+lastAccountName: Densuki
+timestamps:
+  login: 1544558543177
+  logout: 1544558091718
+  lastteleport: 1544558734547
+  kits:
+    mkvi: 1543965998539
+    sniper: 1544036035579
+    color: 1544030993946
+    sniperm395b: 1543967045235
+    dtools: 1544031062425
+    marine: 1544040105893
+ipAddress: 25.39.45.143
+lastlocation:
+  world: world
+  x: 160.5102746329592
+  y: 65.0
+  z: -287.5307712744676
+  yaw: -267.1499
+  pitch: 10.799996
+logoutlocation:
+  world: tardis/DIM3
+  x: -4.149172200317523
+  y: 62.5
+  z: 1.6573463517584404
+  yaw: -125.399796
+  pitch: -16.950006
+godmode: false
+homes:
+  plains:
+    world: world
+    x: 4461.455087041023
+    y: 72.1875
+    z: -1271.1331952651274
+    yaw: -283.45865
+    pitch: 9.485062
+  base:
+    world: world
+    x: -601.8595245013629
+    y: 67.0
+    z: 1519.6824068567742
+    yaw: 163.59341
+    pitch: 18.450033
+  test:
+    world: world
+    x: 266.0133893742781
+    y: 69.0
+    z: 570.2781812776046
+    yaw: 176.04803
+    pitch: 15.900049
+  tardis:
+    world: tardis/DIM3
+    x: 3.0031646420057303
+    y: 68.0
+    z: 0.5231185461858847
+    yaw: 85.95006
+    pitch: 16.05001
+  home:
+    world: world
+    x: 5496.699999988079
+    y: 69.0
+    z: -152.9009863041337
+    yaw: 94.05002
+    pitch: -8.85
+afk: false

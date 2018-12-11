@@ -1,0 +1,81 @@
+lastAccountName: Lan_Games
+timestamps:
+  login: 1544560467097
+  lastteleport: 1544559914426
+  logout: 1544559755019
+  kits:
+    tools: 1543846466648
+ipAddress: 25.6.24.139
+lastlocation:
+  world: world
+  x: 161.3661927619615
+  y: 65.0
+  z: -287.5106387234979
+  yaw: -267.1499
+  pitch: 10.799996
+logoutlocation:
+  world: world
+  x: 563.58791755854
+  y: 65.0
+  z: 2237.3712118081517
+  yaw: -116.915306
+  pitch: 49.949856
+homes:
+  lava:
+    world: world
+    x: 14.795875767452571
+    y: 12.0
+    z: 1814.4875149845268
+    yaw: -39.062756
+    pitch: 13.049846
+  base:
+    world: world
+    x: 129.54263400268434
+    y: 77.0
+    z: 1813.4808963395553
+    yaw: 257.93564
+    pitch: 5.249912
+  d:
+    world: tardis/DIM3
+    x: 9.392323299809378
+    y: 68.0
+    z: 0.973037191899258
+    yaw: 99.00004
+    pitch: 0.74999994
+  quarried:
+    world: world
+    x: 110.27460366654773
+    y: 72.0
+    z: 2219.5737257659284
+    yaw: 74.486336
+    pitch: 12.30005
+  coven:
+    world: world
+    x: 684.3079615632022
+    y: 69.0
+    z: -269.64560684844565
+    yaw: -6.3013916
+    pitch: 40.200058
+  coven2:
+    world: world
+    x: 330.21396087120866
+    y: 69.0
+    z: 2089.4864902757713
+    yaw: -75.21374
+    pitch: 41.25001
+  a:
+    world: world
+    x: 471.5346594550597
+    y: 83.0
+    z: 2120.5604565691756
+    yaw: 61.133972
+    pitch: 16.650002
+  galinha:
+    world: world
+    x: 563.58791755854
+    y: 65.0
+    z: 2237.3712118081517
+    yaw: -141.51529
+    pitch: 49.49986
+afk: false
+nickname: Knopp

@@ -1,0 +1,284 @@
+CREEPER: Creeper
+SKELETON: Skeleton
+SPIDER: Spider
+GIANT: Giant
+ZOMBIE: Zombie
+SLIME: Slime
+GHAST: Ghast
+PIG_ZOMBIE: Zombie Pigman
+ENDERMAN: Enderman
+CAVE_SPIDER: Cave Spider
+SILVERFISH: Silverfish
+BLAZE: Blaze
+MAGMA_CUBE: Magma Cube
+ENDER_DRAGON: Ender Dragon
+WITHER: Wither
+BAT: Bat
+WITCH: Witch
+PIG: Pig
+SHEEP: Sheep
+COW: Cow
+CHICKEN: Chicken
+SQUID: Squid
+WOLF: Wolf
+MUSHROOM_COW: Mooshroom
+SNOWMAN: Snowman
+OCELOT: Ocelot
+IRON_GOLEM: Iron Golem
+VILLAGER: Villager
+HORSE: Horse
+TERRAFIRMACRAFT_SILVERFISHTFC: Terrafirmacraft Silverfishtfc
+ANCIENTWARFARENPC_CAVALRY: Ancientwarfarenpc Cavalry
+ANCIENTWARFARENPC_AWNPCBARD: Ancientwarfarenpc Awnpcbard
+ANCIENTWARFARENPC_PRIEST: Ancientwarfarenpc Priest
+TERRAFIRMACRAFT_SHEEPTFC: Terrafirmacraft Sheeptfc
+ANCIENTWARFARENPC_CIVILIANFEMALE: Ancientwarfarenpc Civilianfemale
+TERRAFIRMACRAFT_SLIMETFC: Terrafirmacraft Slimetfc
+ANCIENTWARFARENPC_ARCHERELITE: Ancientwarfarenpc Archerelite
+ANCIENTWARFARENPC_BARD: Ancientwarfarenpc Bard
+ANCIENTWARFARENPC_SOLDIERELITE: Ancientwarfarenpc Soldierelite
+ANCIENTWARFARENPC_LEADER: Ancientwarfarenpc Leader
+ANCIENTWARFARENPC_MOUNTEDARCHER: Ancientwarfarenpc Mountedarcher
+TERRAFIRMACRAFT_HORSETFC: Terrafirmacraft Horsetfc
+TERRAFIRMACRAFT_PHEASANTTFC: Terrafirmacraft Pheasanttfc
+ANCIENTWARFARENPC_LEADERELITE: Ancientwarfarenpc Leaderelite
+ANCIENTWARFARENPC_ARCHER: Ancientwarfarenpc Archer
+ANCIENTWARFARENPC_CIVILIANMALE: Ancientwarfarenpc Civilianmale
+TERRAFIRMACRAFT_STANDTFC: Terrafirmacraft Standtfc
+TERRAFIRMACRAFT_ZOMBIETFC: Terrafirmacraft Zombietfc
+ANCIENTWARFARENPC_AWNPCTRADER: Ancientwarfarenpc Awnpctrader
+TERRAFIRMACRAFT_CHICKENTFC: Terrafirmacraft Chickentfc
+CHISEL_SNOWMAN: Chisel Snowman
+TERRAFIRMACRAFT_CAVESPIDERTFC: Terrafirmacraft Cavespidertfc
+TERRAFIRMACRAFT_ENDERMANTFC: Terrafirmacraft Endermantfc
+ANCIENTWARFARENPC_AWNPCWORKER: Ancientwarfarenpc Awnpcworker
+ANCIENTWARFARENPC_TRADER: Ancientwarfarenpc Trader
+TERRAFIRMACRAFT_GHASTTFC: Terrafirmacraft Ghasttfc
+ANCIENTWARFARENPC_SOLDIER: Ancientwarfarenpc Soldier
+ANCIENTWARFARENPC_AWNPCCOMBAT: Ancientwarfarenpc Awnpccombat
+TERRAFIRMACRAFT_PIGZOMBIETFC: Terrafirmacraft Pigzombietfc
+OPENBLOCKS_MINIME: Openblocks Minime
+TERRAFIRMACRAFT_DEERTFC: Terrafirmacraft Deertfc
+TERRAFIRMACRAFT_IRONGOLEMTFC: Terrafirmacraft Irongolemtfc
+TERRAFIRMACRAFT_SQUIDTFC: Terrafirmacraft Squidtfc
+TERRAFIRMACRAFT_PIGTFC: Terrafirmacraft Pigtfc
+TERRAFIRMACRAFT_SPIDERTFC: Terrafirmacraft Spidertfc
+TERRAFIRMACRAFT_BLAZETFC: Terrafirmacraft Blazetfc
+OPENBLOCKS_LUGGAGE: Openblocks Luggage
+ANCIENTWARFARENPC_AWNPCPRIEST: Ancientwarfarenpc Awnpcpriest
+TERRAFIRMACRAFT_COWTFC: Terrafirmacraft Cowtfc
+TERRAFIRMACRAFT_SKELETONTFC: Terrafirmacraft Skeletontfc
+TERRAFIRMACRAFT_FISHTFC: Terrafirmacraft Fishtfc
+ANCIENTWARFARENPC_AWNPCCOURIER: Ancientwarfarenpc Awnpccourier
+TERRAFIRMACRAFT_WOLFTFC: Terrafirmacraft Wolftfc
+TERRAFIRMACRAFT_BEARTFC: Terrafirmacraft Beartfc
+TERRAFIRMACRAFT_CREEPERTFC: Terrafirmacraft Creepertfc
+BUILDCRAFT|ROBOTICS_BCROBOT: Buildcraft|robotics Bcrobot
+CUSTOMNPCS_NPCELFMALE: Customnpcs Npcelfmale
+CUSTOMNPCS_NPCPONY: Customnpcs Npcpony
+CUSTOMNPCS_NPCENDERMAN: Customnpcs Npcenderman
+CUSTOMNPCS_NPCFURRYFEMALE: Customnpcs Npcfurryfemale
+CUSTOMNPCS_NPCGOLEM: Customnpcs Npcgolem
+CUSTOMNPCS_NPCSKELETON: Customnpcs Npcskeleton
+CUSTOMNPCS_NPCSLIME: Customnpcs Npcslime
+CUSTOMNPCS_NPCCRYSTAL: Customnpcs Npccrystal
+CUSTOMNPCS_NPCZOMBIEFEMALE: Customnpcs Npczombiefemale
+CUSTOMNPCS_NPCENDERCHIBI: Customnpcs Npcenderchibi
+CUSTOMNPCS_NPCHUMANMALE: Customnpcs Npchumanmale
+CUSTOMNPCS_NPCORCFMALE: Customnpcs Npcorcfmale
+CUSTOMNPCS_NPCNAGAFEMALE: Customnpcs Npcnagafemale
+JAFF_FISHPUFFER: Jaff Fishpuffer
+JAFF_FISHCOD: Jaff Fishcod
+CUSTOMNPCS_NPCDWARFMALE: Customnpcs Npcdwarfmale
+CUSTOMNPCS_NPCELFFEMALE: Customnpcs Npcelffemale
+CUSTOMNPCS_NPCZOMBIEMALE: Customnpcs Npczombiemale
+CUSTOMNPCS_NPCDRAGON: Customnpcs Npcdragon
+CUSTOMNPCS_CUSTOMNPC: Customnpcs Customnpc
+JAFF_FISHCLOWN: Jaff Fishclown
+CUSTOMNPCS_NPCORCFEMALE: Customnpcs Npcorcfemale
+CUSTOMNPCS_NPCNAGAMALE: Customnpcs Npcnagamale
+CUSTOMNPCS_NPCFURRYMALE: Customnpcs Npcfurrymale
+CUSTOMNPCS_NPCHUMANFEMALE: Customnpcs Npchumanfemale
+CUSTOMNPCS_NPCVILLAGER: Customnpcs Npcvillager
+CUSTOMNPCS_NPCDWARFFEMALE: Customnpcs Npcdwarffemale
+JAFF_FISHSALMON: Jaff Fishsalmon
+ELDER_GUARDIAN: Elder Guardian
+WITHER_SKELETON: Wither Skeleton
+STRAY: Stray
+HUSK: Husk
+ZOMBIE_VILLAGER: Zombie Villager
+SKELETON_HORSE: Skeleton Horse
+ZOMBIE_HORSE: Zombie Horse
+ARMOR_STAND: Armor Stand
+DONKEY: Donkey
+MULE: Mule
+EVOKER: Evoker
+VEX: Vex
+VINDICATOR: Vindicator
+ILLUSIONER: Illusioner
+ENDERMITE: Endermite
+GUARDIAN: Guardian
+SHULKER: Shulker
+RABBIT: Rabbit
+POLAR_BEAR: Polar Bear
+LLAMA: Llama
+PARROT: Parrot
+TURTLE: Turtle
+PHANTOM: Phantom
+COD: Cod
+SALMON: Salmon
+PUFFERFISH: Pufferfish
+TROPICAL_FISH: Tropical Fish
+DROWNED: Drowned
+DOLPHIN: Dolphin
+TCONSTRUCT_CRYSTAL: Tconstruct Crystal
+THAUMCRAFT_TAINTEDCREEPER: Thaumcraft Taintedcreeper
+ARSMAGICA2_MOBLIGHTMAGE: Arsmagica2 Moblightmage
+AWWAYOFTIME_MINORDEMONGRUNTFIRE: Awwayoftime Minordemongruntfire
+AWWAYOFTIME_MINORDEMONGRUNTGUARDIAN: Awwayoftime Minordemongruntguardian
+WITCHERY_LILITH: Witchery Lilith
+WITCHERY_HELLHOUND: Witchery Hellhound
+AWWAYOFTIME_SHADEELEMENTAL: Awwayoftime Shadeelemental
+THAUMCRAFT_CULTISTLEADER: Thaumcraft Cultistleader
+AWWAYOFTIME_BOULDERFIST: Awwayoftime Boulderfist
+THAUMCRAFT_TAINTACLE: Thaumcraft Taintacle
+WITCHERY_WOLFMAN: Witchery Wolfman
+THAUMCRAFT_GOLEM: Thaumcraft Golem
+WITCHERY_POLTERGEIST: Witchery Poltergeist
+ARSMAGICA2_MOBHECATE: Arsmagica2 Mobhecate
+WITCHERY_LORDOFTORMENT: Witchery Lordoftorment
+THAUMCRAFT_BRAINYZOMBIE: Thaumcraft Brainyzombie
+WITCHERY_: 'Witchery '
+THAUMCRAFT_CULTISTKNIGHT: Thaumcraft Cultistknight
+ARSMAGICA2_THROWNROCK: Arsmagica2 Thrownrock
+AWWAYOFTIME_MINORDEMONGRUNTGUARDIANFIRE: Awwayoftime Minordemongruntguardianfire
+AWWAYOFTIME_MINORDEMONGRUNTGUARDIANEARTH: Awwayoftime Minordemongruntguardianearth
+WITCHERY_WEREVILLAGER: Witchery Werevillager
+WITCHERY_CORPSE: Witchery Corpse
+BIOMESOPLENTY_ROSESTER: Biomesoplenty Rosester
+WITCHERY_GOBLIN: Witchery Goblin
+THAUMCRAFT_CULTISTPORTAL: Thaumcraft Cultistportal
+BIOMESOPLENTY_WASP: Biomesoplenty Wasp
+THAUMCRAFT_ELDRITCHGOLEM: Thaumcraft Eldritchgolem
+AWWAYOFTIME_MINORDEMONGRUNT: Awwayoftime Minordemongrunt
+ARSMAGICA2_DABROOM: Arsmagica2 Dabroom
+THAUMCRAFT_ELDRITCHGUARDIAN: Thaumcraft Eldritchguardian
+BIOMESOPLENTY_PHANTOM: Biomesoplenty Phantom
+ARSMAGICA2_THROWNARM: Arsmagica2 Thrownarm
+THAUMCRAFT_TAINTSWARMER: Thaumcraft Taintswarmer
+AWWAYOFTIME_MINORDEMONGRUNTEARTH: Awwayoftime Minordemongruntearth
+WITCHERY_ILLUSIONCREEPER: Witchery Illusioncreeper
+WITCHERY_HORNEDHUNTSMAN: Witchery Hornedhuntsman
+BIOMESOPLENTY_BIRD: Biomesoplenty Bird
+WITCHERY_DEATH: Witchery Death
+AWWAYOFTIME_WATERELEMENTAL: Awwayoftime Waterelemental
+WITCHERY_DEATHHORSE: Witchery Deathhorse
+ARSMAGICA2_BOSSARCANEGUARDIAN: Arsmagica2 Bossarcaneguardian
+AWWAYOFTIME_FIREELEMENTAL: Awwayoftime Fireelemental
+ARSMAGICA2_MOBWATERELEMENTAL: Arsmagica2 Mobwaterelemental
+THAUMCRAFT_CULTISTCLERIC: Thaumcraft Cultistcleric
+THAUMCRAFT_FIREBAT: Thaumcraft Firebat
+THAUMCRAFT_TAINTEDSHEEP: Thaumcraft Taintedsheep
+BOTANIA_BOTANIAPIXIE: Botania Botaniapixie
+AWWAYOFTIME_SMALLEARTHGOLEM: Awwayoftime Smallearthgolem
+THAUMCRAFT_ELDRITCHWARDEN: Thaumcraft Eldritchwarden
+ARSMAGICA2_BOSSAIRGUARDIAN: Arsmagica2 Bossairguardian
+WITCHERY_DARKMARK: Witchery Darkmark
+CLONECRAFT_CCENTITYCLONE: Clonecraft Ccentityclone
+ARSMAGICA2_RIFTSTORAGE: Arsmagica2 Riftstorage
+WITCHERY_NIGHTMARE: Witchery Nightmare
+AWWAYOFTIME_ICEDEMON: Awwayoftime Icedemon
+WITCHERY_ILLUSIONZOMBIE: Witchery Illusionzombie
+THAUMCRAFT_TAINTEDVILLAGER: Thaumcraft Taintedvillager
+ARSMAGICA2_BOSSLIFEGUARDIAN: Arsmagica2 Bosslifeguardian
+AWWAYOFTIME_BILEDEMON: Awwayoftime Biledemon
+AWWAYOFTIME_HOLYELEMENTAL: Awwayoftime Holyelemental
+DRACONICEVOLUTION_CHAOSCRYSTAL: Draconicevolution Chaoscrystal
+WITCHERY_CAT: Witchery Cat
+WITCHERY_LOSTSOUL: Witchery Lostsoul
+THAUMCRAFT_TAINTSPORE: Thaumcraft Taintspore
+THAUMCRAFT_TAINTACLETINY: Thaumcraft Taintacletiny
+THAUMCRAFT_TAINTEDCHICKEN: Thaumcraft Taintedchicken
+TCONSTRUCT_KINGSLIME: Tconstruct Kingslime
+WITCHERY_VAMPIRE: Witchery Vampire
+WITCHERY_LOUSE: Witchery Louse
+THAUMCRAFT_TAINTSPIDER: Thaumcraft Taintspider
+BOTANIA_BOTANIADOPPLEGANGER: Botania Botaniadoppleganger
+THAUMCRAFT_ELDRITCHCRAB: Thaumcraft Eldritchcrab
+WITCHERY_TREEFYD: Witchery Treefyd
+ARSMAGICA2_BOSSLIGHTNINGGUARDIAN: Arsmagica2 Bosslightningguardian
+ARSMAGICA2_BOSSENDERGUARDIAN: Arsmagica2 Bossenderguardian
+THAUMCRAFT_TAINTACLEGIANT: Thaumcraft Taintaclegiant
+BIOMESOPLENTY_JUNGLESPIDER: Biomesoplenty Junglespider
+ARSMAGICA2_BOSSFIREGUARDIAN: Arsmagica2 Bossfireguardian
+AWWAYOFTIME_AIRELEMENTAL: Awwayoftime Airelemental
+ARSMAGICA2_AIRSLED: Arsmagica2 Airsled
+BIOMESOPLENTY_GLOB: Biomesoplenty Glob
+WITCHERY_SPECTRE: Witchery Spectre
+AWWAYOFTIME_MINORDEMONGRUNTGUARDIANICE: Awwayoftime Minordemongruntguardianice
+AWWAYOFTIME_MINORDEMONGRUNTICE: Awwayoftime Minordemongruntice
+WITCHERY_OWL: Witchery Owl
+ARSMAGICA2_BOSSWINTERGUARDIAN: Arsmagica2 Bosswinterguardian
+BOTANIA_BOTANIAPINKWITHER: Botania Botaniapinkwither
+WITCHERY_FOLLOWER: Witchery Follower
+WITCHERY_REFLECTION: Witchery Reflection
+WITCHERY_BANSHEE: Witchery Banshee
+AGRICRAFT_VILLAGERFARMER: Agricraft Villagerfarmer
+ARSMAGICA2_BOSSNATUREGUARDIAN: Arsmagica2 Bossnatureguardian
+ARSMAGICA2_MOBMANAELEMENTAL: Arsmagica2 Mobmanaelemental
+ARSMAGICA2_MOBDARKLING: Arsmagica2 Mobdarkling
+THAUMCRAFT_TAINTEDCOW: Thaumcraft Taintedcow
+WITCHERY_TOAD: Witchery Toad
+THAUMCRAFT_WISP: Thaumcraft Wisp
+WITCHERY_MINDRAKE: Witchery Mindrake
+WITCHERY_MIRRORFACE: Witchery Mirrorface
+DRACONICEVOLUTION_ENDERDRAGON: Draconicevolution Enderdragon
+THAUMCRAFT_PECH: Thaumcraft Pech
+BIOMESOPLENTY_PIXIE: Biomesoplenty Pixie
+ARSMAGICA2_MOBMAGEVILLAGER: Arsmagica2 Mobmagevillager
+WITCHERY_COVENWITCH: Witchery Covenwitch
+AWWAYOFTIME_LOWERGUARDIAN: Awwayoftime Lowerguardian
+WITCHERY_GOBLINGULG: Witchery Goblingulg
+WITCHERY_WINGEDMONKEY: Witchery Wingedmonkey
+THAUMCRAFT_GIANTBRAINYZOMBIE: Thaumcraft Giantbrainyzombie
+AWWAYOFTIME_SHADE: Awwayoftime Shade
+ARSMAGICA2_FLICKER: Arsmagica2 Flicker
+ARSMAGICA2_MOBDARKMAGE: Arsmagica2 Mobdarkmage
+ARSMAGICA2_SHADOWHELPER: Arsmagica2 Shadowhelper
+AWWAYOFTIME_FALLENANGEL: Awwayoftime Fallenangel
+WITCHERY_DEMON: Witchery Demon
+WITCHERY_VILLAGEGUARD: Witchery Villageguard
+AWWAYOFTIME_WINGEDFIREDEMON: Awwayoftime Wingedfiredemon
+THAUMCRAFT_TAINTSWARM: Thaumcraft Taintswarm
+ARSMAGICA2_BOSSEARTHGUARDIAN: Arsmagica2 Bossearthguardian
+THAUMCRAFT_THAUMSLIME: Thaumcraft Thaumslime
+WITCHERY_SPIRIT: Witchery Spirit
+WITCHERY_FAMILIAR: Witchery Familiar
+DRACONICEVOLUTION_CHAOSGUARDIAN: Draconicevolution Chaosguardian
+THAUMICEXPLORATION_TAINTACLEMINION: Thaumicexploration Taintacleminion
+WITCHERY_ILLUSIONSPIDER: Witchery Illusionspider
+WITCHERY_LEONARD: Witchery Leonard
+WITCHERY_IMP: Witchery Imp
+WITCHERY_EYE: Witchery Eye
+WITCHERY_BABAYAGA: Witchery Babayaga
+THAUMCRAFT_INHABITEDZOMBIE: Thaumcraft Inhabitedzombie
+THAUMCRAFT_MINDSPIDER: Thaumcraft Mindspider
+THAUMCRAFT_TRAVELINGTRUNK: Thaumcraft Travelingtrunk
+ARSMAGICA2_BATTLECHICKEN: Arsmagica2 Battlechicken
+AWWAYOFTIME_MINORDEMONGRUNTWIND: Awwayoftime Minordemongruntwind
+AWWAYOFTIME_EARTHELEMENTAL: Awwayoftime Earthelemental
+ARSMAGICA2_EARTHELEMENTAL: Arsmagica2 Earthelemental
+WITCHERY_WITCHHUNTER: Witchery Witchhunter
+TCONSTRUCT_EDIBLESLIME: Tconstruct Edibleslime
+ARSMAGICA2_THROWNSICKLE: Arsmagica2 Thrownsickle
+WITCHERY_GOBLINMOG: Witchery Goblinmog
+THAUMCRAFT_TAINTEDPIG: Thaumcraft Taintedpig
+WITCHERY_MANDRAKE: Witchery Mandrake
+ARSMAGICA2_MOBMANACREEPER: Arsmagica2 Mobmanacreeper
+ARSMAGICA2_BOSSWATERGUARDIAN: Arsmagica2 Bosswaterguardian
+WITCHERY_ATTACKBAT: Witchery Attackbat
+ARSMAGICA2_MOBDRYAD: Arsmagica2 Mobdryad
+ARSMAGICA2_HELLCOW: Arsmagica2 Hellcow
+AWWAYOFTIME_MINORDEMONGRUNTGUARDIANWIND: Awwayoftime Minordemongruntguardianwind
+ARSMAGICA2_MOBFIREELEMENTAL: Arsmagica2 Mobfireelemental
+ARSMAGICA2_WHIRLWIND: Arsmagica2 Whirlwind

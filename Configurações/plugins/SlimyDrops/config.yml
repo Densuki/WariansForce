@@ -1,0 +1,11 @@
+vanilla-items:
+- GLOWSTONE_DUST
+- ENDER_PEARL
+- EYE_OF_ENDER
+- DIAMOND
+- EMERALD
+- GOLD_INGOT
+- IRON_INGOT
+- EXP_BOTTLE
+options:
+  auto-update: true
